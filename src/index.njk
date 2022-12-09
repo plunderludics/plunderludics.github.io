@@ -1,0 +1,36 @@
+---
+layout: page.njk
+---
+<h1>
+  plunderludics
+</h1>
+
+<div>
+  <p>
+    plunderludics means making games out of games
+  </p>
+  <p>
+    heavily inspired by <a href="https://www.upress.umn.edu/book-division/books/metagaming">metagaming</a> and stealing a term from <a href="http://plunderphonics.com/">plunderphonics</a>, we are trying to explore the possibilities of creating new media using existing emulated videogames as raw material.
+  </p>
+  <p>
+    if ludic time is non-linear, what can we do with videogame remixing?
+  </p>
+</div>
+
+<ul>
+{% for category_id, category in categories %}
+  <li>
+  {{ category.name | link_category(category_id) }}
+  </li>
+{% endfor %}
+</ul>
+
+
+{# spit out thing data for debug #}
+{% for i in range(0, 40) %}
+  <br>
+{% endfor %}
+
+<pre style="white-space: pre-wrap;">
+{{ things | dump(2) }}
+</pre>

@@ -1,0 +1,16 @@
+{
+  "name": "plunderludics-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --input=src --output=docs",
+    "clean": "rm -rf _site docs",
+    "serve": "npx eleventy --serve --input=src",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.15"
+  },
+  "dependencies": {
+    "@root/walk": "^1.1.0"
+  }
+}

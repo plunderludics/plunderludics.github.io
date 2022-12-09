@@ -1,0 +1,85 @@
+---
+layout: page.njk
+pagination:
+  data: things
+  size: 1
+  alias: thingId
+permalink: '{{ thingId }}.html'
+# {# e.g: techniques/chroma-key.html #}
+---
+{# A lot of this page should be moved out into partials that only render for
+   the specific categories where they apply #}
+  
+{% set category = things[thingId].category %}
+
+{% set thing = things[thingId] %}
+<h1>{{ thing | show_thing }}</h1>
+
+<div>
+  {% if  thing.author %}
+    by  {{ thing.author }}
+    <br>
+  {% endif %}
+
+  {{ thing.description | render | safe }}
+  {% if thing.url %}
+    <br>
+    (<a href={{thing.url}}>external link</a>)
+  {% endif %}
+</div>
+
+<div>
+{# Show assets (images and videos) #}
+{% for asset in thing.assets %}
+  {% if asset.type == 'video' %}
+    <video controls>
+      {# Huge hack until we find a better way to host large files.
+         The video files are on git LFS which apparently isn't compatible
+         with github pages :(
+         So point to the asset in the public repo instead.
+      #}
+      <source src='https://github.com/iatenothingbutriceforthreedays/plunderludics/blob/main/src/{{asset.src}}?raw=true' type="video/mp4" />
+    </video>
+  {% elif asset.type == 'image' %}
+    <img src={{asset.src}} />
+  {% else %}
+    [Unimplemented asset type: {{asset.type}}]
+  {% endif %}
+  <br>
+{% endfor %}
+
+{# Show all the relations to things in other categories #}
+{% for otherCategoryId, otherCategory in categories %}
+  {% if thing[otherCategoryId] %}
+    <h3> {{ otherCategory | show_thing }} </h3> 
+    {# TODO would be nice to customise this header text - e.g. a tool is 'useful for' x y z techniques #}
+    <ul>
+      {% for otherThingId in thing[otherCategoryId] %}
+        <li>
+          {{ link_thing('/'+otherCategoryId+'/'+otherThingId) }} 
+          {# should really have a method for constructing the path #}
+          {# TODO would be nice to show an image here if available/appropriate #} 
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+
+</div>
+
+<br>
+<br>
+<br>
+
+{{ category | link_category(category) }}
+
+
+{# spit out thing data for debug #}
+{% for i in range(0, 40) %}
+  <br>
+{% endfor %}
+
+<pre style="white-space: pre-wrap;">
+  {{ thing | dump(2) }}
+</pre>

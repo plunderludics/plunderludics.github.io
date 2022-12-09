@@ -1,0 +1,58 @@
+---
+layout: page.njk
+pagination:
+  data: categories
+  size: 1
+  alias: categoryId
+permalink: '{{ categoryId }}/index.html'
+#        {# e.g: techniques/index.html #}
+---
+{% set category = categories[categoryId] %}
+
+<h1>{{ category.name }}</h1>
+
+<div>
+  {{ category.description | render | safe }}
+</div>
+
+{% set theseThings = u.selectByCategoryId(things, categoryId) %}
+
+{% set subcategories = u.uniq(u.pick(u.objValues(theseThings), "subcategory")) %}
+{# this also creates a null subcategory for things w no defined subcategory #}
+
+{% for subcategory in subcategories %}
+{% if subcategory %}
+  <h4> {{subcategory}} </h4>
+{% endif %}
+<ul>
+  {% for thingId, thing in theseThings %}
+    {# TODO think about sorting: e.g. devlogs and experiments should sort by date #}
+    {% if thing.subcategory == subcategory %}
+      <li>
+        {{ link_thing(thing) }}
+        {% if  thing.url %} (<a href={{thing.url}}>link</a>) {% endif %}
+        {% if  thing.author %} by  {{ thing.author }} {% endif %}
+        {% if  thing.description %}
+          : {{ thing.description | render | safe }}
+        {% endif %}
+      </li>
+      {# perhaps should only show description if it's not too long #}
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<br>
+<br>
+<br>
+<br>
+<a href="/">plunderludics</a>
+
+{# spit out thing data for debug #}
+{% for i in range(0, 40) %}
+  <br>
+{% endfor %}
+
+<pre style="white-space: pre-wrap;">
+{{ category | dump(2) }}
+</pre>
