@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+                <!-- Page information -->
+                <meta charset="UTF-8" />
+                <meta name="node_id" content="getting started">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="shortcut icon" href="/favicon.ico" />
+
+                <!-- Set title -->
+                <title>plunderludics wiki</title>
+
+                <!-- Includes -->
+                
+<script src="/obs.html/static/obsidian_core.js"></script>
+<script src="/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="/obs.html/static/master.css" />
+<script src="/obs.html/static/flexsearch.bundle.js"></script>
+<script src="/obs.html/static/pako.js"></script>
+<script src="/obs.html/static/search.js"></script>
+<script src="/obs.html/static/dirtree.js"></script>
+
+
+                <!-- Onload tweaks -->
+                <script>
+                        const CURRENT_NODE = 'getting started';
+                        const PAGE_DEPTH = 1;
+                </script>
+        </head>
+
+<body class="theme-obs-light">
+        <div id="antiflash" style="display: none;"></div>
+        <script>
+                document.getElementById('antiflash').style.display = 'block';
+        </script>
+        <div id="search-master-div">
+    <div id="search-slab" king_ramses="return the slaaab">
+            <div id="search-controls">
+                    <input id="search_string" placeholder="Type to search notes" type="text" />
+                    <div class="tooltip" style="display: none;">
+                        <input type="checkbox" id="hard_search" name="hard" />
+                        <span class="tooltiptext">Hard search (require exact match)</span>
+                    </div>
+                    <div id="search-results-box">
+                        <div id="search-results"></div>
+                    </div>
+                    <div id="search-instructions">
+                        <div class="prompt-instruction">
+                                <b>esc</b> to dismiss
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("search-master-div").addEventListener('click', e => {
+            if(e.target !== e.currentTarget){
+                    return
+            }
+            toggle_id('search-master-div');
+    })
+    document.getElementById("search_string").addEventListener("input", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    }); 
+    document.getElementById("hard_search").addEventListener("click", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    });
+
+    window.addEventListener('keydown', e => {
+        if((e.key=='Escape'||e.key=='Esc'||e.keyCode==27)){
+            toggle_id('search-master-div');
+            return false;
+        } 
+    }, true);
+
+    function click_list_link(element){
+        element.parentElement.getElementsByTagName('a')[0].click()
+    }
+</script>
+        <div id="page_holder" class="flex_col">
+                <div id="header" class="header" style="position:fixed">
+                        <div id="header_flex" class="flex_row">
+                                <a href="/index.html" id="homelink" title="Clear screen and go to homepage">plunderludics wiki</a>
+                                <div class="navbar-button" onclick="toggle_menu()">
+                                        ≡
+                                </div>
+                                <div id="navbar" class="navbar">
+                                        
+                                        <div class="icon-tray">
+                                                <div id="theme-button" class="theme-button requires_js" title="Change theme" onclick="toggle_theme_popup(this)">
+    T
+</div>
+<script>
+    function toggle_theme_popup(el){
+        // make theme button show that it's active by adding the .active class
+        toggle(el);
+
+        // show the theme selector
+        toggle_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            toggle(pu);
+        }
+    }
+
+    function disable_theme_popup(){
+        disable_id('theme-button');
+
+        // show the theme selector
+        disable_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            disable(pu);
+        }
+    }
+</script>
+                                                        <div onclick="openSearch()" class="theme-button requires_js">
+            <img src = "/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
+        </div>
+        <script>
+            function openSearch(){
+                // toggle search popup and continue with extra code if it is enabled this time
+                if (toggle_id('search-master-div')){
+                    // get input field and temporarily disable it
+                    let ss = document.getElementById('search_string');
+                    ss.value = 'Seach data initializing...';
+                    ss.readOnly = true; 
+
+                    // load search data if not yet done so
+                    setTimeout(function(){
+                        LoadSearchData()
+
+                        // clear input and put focus on it so that we can start typing immediately
+                        ss.value = '';
+                        ss.readOnly = false; 
+                        ss.focus()
+                        ss.select()
+                    }, 100);
+                }
+            }
+        </script>
+                                                
+                                                        <div >
+            <a id="dirtree_link" class="system-link" href="/obs.html/dir_index.html" title="View directory tree">
+                    <img src = "/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
+            </a>
+        </div>
+                                                <div>
+    <a href="/obs.html/tags/index.html" title="Open tag view">
+            <img src = "/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
+    </a>
+</div>
+                                                
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="popup" id="theme-popup">
+    <label for="cars">Theme </label>
+
+    <select name="theme" id="theme" onchange="set_theme(this.value)">
+      <option value="light">light</option>
+      <option value="obs-light" selected="selected">obsidian-light</option>
+      <option value="obs-dark">obsidian-dark</option>
+    </select> 
+</div>
+                </div>
+                <div id="header2" class="header">
+                        <div id="header_flex2" class="flex_row">
+                                <a href="/index.html" id="homelink" title="Clear screen and go to homepage">plunderludics wiki</a>
+                                <div class="navbar-button" onclick="toggle_menu()">
+                                        ≡
+                                </div>
+                                <div id="navbar2" class="navbar">
+                                        
+                                        <div class="icon-tray">
+                                                <div id="theme-button" class="theme-button requires_js" title="Change theme" onclick="toggle_theme_popup(this)">
+    T
+</div>
+<script>
+    function toggle_theme_popup(el){
+        // make theme button show that it's active by adding the .active class
+        toggle(el);
+
+        // show the theme selector
+        toggle_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            toggle(pu);
+        }
+    }
+
+    function disable_theme_popup(){
+        disable_id('theme-button');
+
+        // show the theme selector
+        disable_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            disable(pu);
+        }
+    }
+</script>
+                                                        <div onclick="openSearch()" class="theme-button requires_js">
+            <img src = "/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
+        </div>
+        <script>
+            function openSearch(){
+                // toggle search popup and continue with extra code if it is enabled this time
+                if (toggle_id('search-master-div')){
+                    // get input field and temporarily disable it
+                    let ss = document.getElementById('search_string');
+                    ss.value = 'Seach data initializing...';
+                    ss.readOnly = true; 
+
+                    // load search data if not yet done so
+                    setTimeout(function(){
+                        LoadSearchData()
+
+                        // clear input and put focus on it so that we can start typing immediately
+                        ss.value = '';
+                        ss.readOnly = false; 
+                        ss.focus()
+                        ss.select()
+                    }, 100);
+                }
+            }
+        </script>
+                                                
+                                                        <div >
+            <a id="dirtree_link" class="system-link" href="/obs.html/dir_index.html" title="View directory tree">
+                    <img src = "/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
+            </a>
+        </div>
+                                                <div>
+    <a href="/obs.html/tags/index.html" title="Open tag view">
+            <img src = "/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
+    </a>
+</div>
+                                                
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="popup" id="theme-popup">
+    <label for="cars">Theme </label>
+
+    <select name="theme" id="theme" onchange="set_theme(this.value)">
+      <option value="light">light</option>
+      <option value="obs-light" selected="selected">obsidian-light</option>
+      <option value="obs-dark">obsidian-dark</option>
+    </select> 
+</div>
+                </div>
+                <div class="flex_row" id="container_row">
+                        <div class="container-wrapper ">
+                                <div class="container">
+                                <div class="content"><h1 id="plundering-101">plundering 101</h1>
+<div class="toc">
+<ul>
+<li><a href="#plundering-101" class="anchor-link">plundering 101</a><ul>
+<li><a href="#directory-structure" class="anchor-link">directory structure</a></li>
+<li><a href="#roms" class="anchor-link">roms</a></li>
+<li><a href="#plunderunity" class="anchor-link">plunderunity</a><ul>
+<li><a href="#emulatorcapture" class="anchor-link">EmulatorCapture</a></li>
+<li><a href="#mixer4-and-mixer8" class="anchor-link">Mixer4 and Mixer8</a></li>
+<li><a href="#sampleloader" class="anchor-link">SampleLoader</a></li>
+</ul>
+</li>
+<li><a href="#scripts" class="anchor-link">scripts</a><ul>
+<li><a href="#tracks-n" class="anchor-link">tracks-N</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>outline:   </p>
+<ul>
+<li>folder structure   </li>
+<li>plunderunity   </li>
+<li>EmulatorCapture   </li>
+<li>mixer4 / mixer8 / osc   </li>
+<li>sample loader   </li>
+<li>scripts   </li>
+<li>tracks4.bat / tracks8.bat   </li>
+<li>track.bat   </li>
+</ul>
+<h2 id="directory-structure">directory structure</h2>
+<p>you need your folder structure like this:   </p>
+<p>PLUNDER_HOME (%PLUNDER_HOME%)   </p>
+<ul>
+<li>Bizhawk <a href="https://drive.google.com/file/d/1-4xwnOr5QIpLih28YEdCQBVZRBb8UCmd/view?usp=share_link" class="external-link">(build here)</a>   </li>
+<li>output   <ul>
+<li>BizHawk.exe   </li>
+</ul>
+</li>
+<li>scripts <a href="https://github.com/plunderludics/scripts" class="external-link">(git repo)</a>   </li>
+<li>samples <a href="https://github.com/plunderludics/samples" class="external-link">(git repo)</a>   </li>
+<li>plunderunity <a href="https://github.com/plunderludics/plunderunity" class="external-link" class="external-link">(git repo)</a>   </li>
+<li>roms (from internet archive)   </li>
+<li>Bizhawk-source (optional, if you want to modify bizhawk itself) <a href="https://github.com/plunderludics/BizHawk" class="external-link">(git repo)</a>   </li>
+</ul>
+<p>all the github repos are <a href="https://github.com/plunderludics" class="external-link">here</a>   </p>
+<p>you have to set the main folder as your %PLUNDER_HOME% environment variable. (i'll make this easier in the future)   </p>
+<p>Window Search Environmental Variables:   </p>
+<p><img alt="" src="img/2023-03-03-16-20-14.png" />   </p>
+<hr />
+<h2 id="roms">roms</h2>
+<p>you can get extra roms at the internet archive, following links:   </p>
+<ul>
+<li>nes: <a href="https://archive.org/details/cylums-nes-rom-collection" class="external-link">https://archive.org/details/cylums-nes-rom-collection</a>   </li>
+<li>n64: <a href="https://archive.org/download/cylums-nintendo-64-rom-collection/Cylum%27s%20Nintendo%2064%20ROM%20Collection%20%2802-19-2021%29/" class="external-link">https://archive.org/download/cylums-nintendo-64-rom-collection/Cylum%27s%20Nintendo%2064%20ROM%20Collection%20%2802-19-2021%29/</a>   </li>
+<li>psx: <a href="https://archive.org/download/psx-roms-archive" class="external-link">https://archive.org/download/psx-roms-archive</a>   </li>
+</ul>
+<p>the search <code>\[console\] rom archive usually works pretty well, or</code>[console] cylum`   </p>
+<hr />
+<h2 id="plunderunity">plunderunity</h2>
+<p><a href="https://github.com/plunderludics/plunderunity" class="external-link" class="external-link">repo</a>   </p>
+<p>mostly the unity tools to render emulator windows and send/receive OSC messages.   </p>
+<p>it can also send and receive OSC for some parameters.   </p>
+<p>all of the experiments are shared in this repo, its chaos.   </p>
+<p>some useful prefabs   </p>
+<h3 id="emulatorcapture">EmulatorCapture</h3>
+<p>is a prefab that captures a window. you can set the window title to capture on "Partial Window Title", and set the render texture of your choice.   </p>
+<p>you can use the render texture on a canvas Raw Image.   </p>
+<h3 id="mixer4-and-mixer8">Mixer4 and Mixer8</h3>
+<p>mixes 4 or 8 textures, based on windows that contain the string <code>trackN</code>heir title. (N from 1 to 8), see <a href="">scripts/track.bat</a> for details.   </p>
+<h3 id="sampleloader">SampleLoader</h3>
+<p>used to load samples in specific tracks. call <code>LoadSample(string trackName, string sampleName)</code> to load the named sample on the track named trackName. see <a href="">scripts/track.bat</a> for details.   </p>
+<hr />
+<h2 id="scripts">scripts</h2>
+<p><a href="https://tasvideos.org/Bizhawk/LuaFunctions" class="external-link">https://tasvideos.org/Bizhawk/LuaFunctions</a>   </p>
+<h3 id="tracks-n">tracks-N</h3>
+<p>opens <br />
+in the scripts folder, you can run the script tracks-8.bat to open 8 bizhawk instances names trackX (1 to 8)   </p>
+<p>it does this by running the track script, which you can run like this:   </p>
+<div class="lang-bat">
+
+<div class="codehilite"><pre><span></span><code>track.bat <span class="p">&lt;</span>sample_name<span class="p">&gt;</span> &lt;window_title&gt;
+</code></pre></div>
+
+
+</div></div>
+<div class="note-footer">
+<div class="backlinks">
+<h2>Backlinks</h2>
+<ul>
+	<li><a class="backlink" href="/index.html">index</a></li>
+</ul>
+</div>
+
+<div class="tags">
+
+</div>
+
+</div>
+
+                                <!-- end content -->
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <script src="/obs.html/static/obsidian_tabs_footer.js" type="text/javascript"></script>
+
+        
+
+</body>
+</html>
