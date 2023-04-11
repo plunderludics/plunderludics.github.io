@@ -5,12 +5,12 @@ var no_tab_mode = 0;
 var mermaid_enabled = 0;
 var toc_pane_div = "";
 var dir_index_pane_div = "";
-var html_url_prefix = "";
-var CONFIGURED_HTML_URL_PREFIX = "";
+var html_url_prefix = "/wiki";
+var CONFIGURED_HTML_URL_PREFIX = "/wiki";
 var RELATIVE_PATHS = 0;
 var documentation_mode = 0;
 var tab_mode = !no_tab_mode;
-var gzip_hash = '125277921250399958960307332511658511259'                       // used to check whether the localStorage data is stale
+var gzip_hash = '190018363691843778083909050083452657643'                       // used to check whether the localStorage data is stale
 
 // global cache
 var fn_cache_ls_available = null;
@@ -480,7 +480,7 @@ function get_graph_data(){
     return get_html_url_prefix()+'/obs.html/data/graph.json';
 }
 function get_html_url_prefix(){
-    return ''  // this value is replaced by the actual url prefix when compiled
+    return '/wiki'  // this value is replaced by the actual url prefix when compiled
 }
 
 function signal_js_enabled(container){

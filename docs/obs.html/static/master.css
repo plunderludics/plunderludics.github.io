@@ -53,14 +53,14 @@ body {
 
 @font-face {
     font-family: 'SourceCodePro-Regular';
-    src: url('/obs.html/static/SourceCodePro-Regular.ttf') format('truetype');
+    src: url('/wiki/obs.html/static/SourceCodePro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: monospace;
 }
 
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url('/obs.html/static/Roboto-Regular.ttf') format('truetype');
+    src: url('/wiki/obs.html/static/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -1972,14 +1972,14 @@ li .callout {
 
     @font-face {
         font-family: 'SourceCodePro-Regular';
-        src: url('/obs.html/static/SourceCodePro-Regular.ttf') format('truetype');
+        src: url('/wiki/obs.html/static/SourceCodePro-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: monospace;
     }
 
     @font-face {
         font-family: 'Roboto-Regular';
-        src: url('/obs.html/static/Roboto-Regular.ttf') format('truetype');
+        src: url('/wiki/obs.html/static/Roboto-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -2028,7 +2028,7 @@ li .callout {
 
 
     .external-link::after {
-        background: transparent url(/obs.html/static/external.svg) 0 0 no-repeat;
+        background: transparent url(/wiki/obs.html/static/external.svg) 0 0 no-repeat;
         background-size: auto;
         background-size: 16px;
         content: "";
