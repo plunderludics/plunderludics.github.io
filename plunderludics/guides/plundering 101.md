@@ -1,5 +1,3 @@
-# plundering 101
-
 outline:
 - folder structure
 - plunderunity

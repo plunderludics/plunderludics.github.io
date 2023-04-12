@@ -6,4 +6,4 @@
 [[2023-02-25 spring salad]]
 
 ## guides
-[[Getting Started]]
+[[plundering 101]]

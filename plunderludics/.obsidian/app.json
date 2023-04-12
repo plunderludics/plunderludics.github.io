@@ -1,5 +1,6 @@
 {
   "newFileLocation": "current",
   "attachmentFolderPath": "./media",
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }
