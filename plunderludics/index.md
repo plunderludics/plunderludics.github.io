@@ -7,3 +7,4 @@
 
 ## guides
 [[plundering 101]]
+[[how to plunderludics]]
