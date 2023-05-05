@@ -48,7 +48,10 @@ So file hierarchy would look like:
 OK so in music a 'sample' usually means a fragment of audio ripped from a longer track. In plunderludics the meaning is a little more vague but we imagine the equivalent as being like a  'moment' of gameplay ripped from an existing game. E.g. maybe we like the little bit of gameplay where mario can spin around at the top of a tree outside the castle.
 
 ### Make a sample
-The most important piece of a plunderludic sample is a save state. So we get mario up to the top of the tree, and then hit <???> in BizHawk to save the state. Make a new folder in the `samples` directory called something like `mario-in-tree`, and save the state file within that directory (called something like `mario-in-tree.State`)
+The most important piece of a plunderludic sample is a save state. So we get mario up to the top of the tree, and then hit 'Save Named State' in BizHawk to save the state. Make a new folder in the `samples` directory called something like `mario-in-tree`, and save the state file within that directory (called something like `mario-in-tree.State`)
+
+[//]: # (TODO check 'Save Named State' / 'Load State' commands)
+[//]: # (TODO screenshots)
 
 \[Ignore this bit if you don't want to use Python/command line]
 This part is a bit annoying, but you should also make a file called `rompath.txt` inside the `mario-in-tree` directory, and put this text inside: `../roms/mario.z64`. This lets our run_sample.py script (see below) know which rom this particular sample is connected to.
