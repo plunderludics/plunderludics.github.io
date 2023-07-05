@@ -10,7 +10,7 @@ mut wrote this for Festival Ecrã 2023:
 ```
 multiple third person games from 5th generation consoles (psx, n64), cut, sampled, limited and blended as such to allow for textural exploration.
 
-a plunderludic experiment that plays with memory and nostalgia and the meaning of moving within and around videogames. exploring the relation of the infinite possibilities of plays within constrained virtual spaces, which sometimes might mean pushing your avatar into a wall until it becomes something else ```
+a plunderludic experiment that plays with memory and nostalgia and the meaning of moving within and around videogames. exploring the relation of the infinite possibilities of plays within constrained virtual spaces, which sometimes might mean pushing your avatar into a wall until it becomes something else
 ```
 
 ## comments

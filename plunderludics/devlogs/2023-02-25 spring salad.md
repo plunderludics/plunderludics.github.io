@@ -46,7 +46,7 @@ There are related ideas in other media. The one that comes to mind is Portishead
 ```
 
 ## works:
-[[tapestry 4]]
+[[tapestry]]
 [[tbaoo]]
 [[tbaoobaoo]]
 [[auto mario]]
