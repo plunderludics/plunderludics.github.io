@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md",
+                "file": "guides/setting up the wiki.md",
                 "mode": "source",
                 "source": false
               }
@@ -308,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md",
+                "file": "guides/setting up the wiki.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md",
+                "file": "guides/setting up the wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md"
+                "file": "guides/setting up the wiki.md"
               }
             }
           }
@@ -370,6 +370,16 @@
   },
   "active": "f55b51c5e9c53516",
   "lastOpenFiles": [
+    "index.md",
+    "experiments/media/2023-06-02-tapestry4-3.png",
+    "experiments/media/2023-06-02-tapestry4-1.png",
+    "experiments/media/2023-06-02-tapestry4-2.png",
+    "experiments/media/2022-12-01-mmbs2-2.png",
+    "experiments/media/2022-12-01-mmbs2-0.png",
+    "experiments/media/2023-06-02-tapestry4-4.png",
+    "experiments/media/2023-06-02-tapestry4-5.png",
+    "experiments/media/2023-06-02-tapestry4-internal.png",
+    "devlogs/2023-02-25 spring salad.md",
     "experiments/violence medium.md",
     "experiments/mario feedback.md",
     "techniques.md",
@@ -381,27 +391,17 @@
     "experiments/mario lylat system.md",
     "devlogs/2022-12-03 babycastles.md",
     "devlogs/tonytony.md",
-    "experiments/media/2022-12-01-mmbs2-0.png",
-    "experiments/media/2022-12-01-mmbs2-2.png",
     "media/2022-12-01-mmbs2-0.png",
     "media",
-    "index.md",
     "experiments/tapestry.md",
-    "experiments/media/2023-06-02-tapestry4-1.png",
     "experiments/media/2022-10-07-mario-feedback-3.mp4",
     "experiments/media/2022-10-07-mario-feedback-2.mp4",
     "experiments/media/2022-10-07-mario-feedback-4.mp4",
     "experiments/media/2022-10-07-mario-feedback-1.mp4",
-    "devlogs/2023-02-25 spring salad.md",
-    "experiments/media/2023-06-02-tapestry4-internal.png",
     "tools/obs.md",
     "tools/mame.md",
     "tools/bizhawk.md",
     "experiments/linked jumps.md",
-    "experiments/media/2023-06-02-tapestry4-5.png",
-    "experiments/media/2023-06-02-tapestry4-4.png",
-    "experiments/media/2023-06-02-tapestry4-3.png",
-    "experiments/media/2023-06-02-tapestry4-2.png",
     "experiments/media/tapestry4-5.png",
     "tools/touch designer.md",
     "Home.md",
@@ -411,7 +411,6 @@
     "guides/plundering 101.md",
     "guides/setting up the wiki.md",
     "tools/vcv rack.md",
-    "tools/jsnes.md",
     "experiments/media/2022-10-28-chainchomp-matte.mp4",
     "experiments/media/2022-10-21-killer-instinct-matte.mp4",
     "experiments/media/2022-10-21-mario-lylat-system2.mp4",
