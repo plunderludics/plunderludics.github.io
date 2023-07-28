@@ -1892,260 +1892,36 @@ li .callout {
 /*  ----------------------------------------- /CALLOUTS ------------------------------------------------ */
 
 
-
-    #header #homelink,
-    #header #homelink:visited,
-    #header #homelink:link,
-    #header #homelink:hover {
-        margin-left: 0rem;
-        margin-right: 0.5rem;
-        font-weight: bold;
-    }
-
-    /* ---------------------- */
-
+@layer layout {
     body {
-        overflow-y: hidden;
-        overflow-x: scroll;
-        display: flex;
-    }
-
-    .container {
-        height: calc(100vh - 5rem);
-        overflow: scroll;  
-        overflow-y: scroll;
-
-    }
-    .container-wrapper {
-        max-width: calc(45rem + 3rem);
-        position: relative;  
-        overflow: visible;
-    }
-
-    .container-clickback {
-        position: absolute;
-        background-color: rgb(240, 240, 240);
-        width: 2.0rem;
-        height: 1.1rem;
-        top: 0px;
-        right: 0.75rem;
-        border-radius: 0 0 0 1rem;
-        cursor: pointer;
-    }
-
-    .single_tab_page-left-aligned {
-        width: auto;
-        margin: 0rem;
-    }
-
-    ::-webkit-scrollbar {
-        width: 0.3rem;
-        height: 0.4rem;
-        background-color: #ffffff; /* or add it to the track */
-    }
-    ::-webkit-scrollbar-thumb{
-        background-color: rgb(var(--accent-color), 0.07);
-        border: 0px;
-        border-radius: 10px;
-    }
-
-
-    @media (max-width: 800px) {
-        .container {
-            width: calc(100vw - 4rem);
-            padding: 2rem;
-        }
-        .container:after {
-            content: "\a\a\a\a\a";
-            white-space: pre;
-        }
-        .container-clickback {
-            display: none;
-        }
-        .single_tab_page {
-            width: 100vw;
-            max-width: 100vw;
-            margin:0rem;
-            margin: auto;
-        }
-    }
-
-    @font-face {
-        font-family: 'SourceCodePro-Regular';
-        src: url('/wiki/obs.html/static/SourceCodePro-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: monospace;
-    }
-
-    @font-face {
-        font-family: 'Roboto-Regular';
-        src: url('/wiki/obs.html/static/Roboto-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-
-    .header {
-        width: 100vw;
-        padding: 1rem;
-        padding-left: 2rem;
-    }
-    h1, h2, h3, h4, h5, embeddedtitle {
-        scroll-margin-top: 4rem;
-    }
-    h1:not(:first-child) {
-        margin-top: 2rem;
-    }
-
-    h2 {
-        font-size: 14pt;
-        border-bottom: 1px dotted #777070;
-        font-weight: 600;
-        padding-bottom: 0.2rem;
-        margin-top: 2rem;
-    }
-    h2 + p {
-        margin-top: 0rem;
-    }
-
-
-
-    .anchor {
-        visibility: hidden;
-        float: left;
-        padding-right: 4px;
-        margin-left: -20px;
-        line-height: 1;
-    }
-    .anchor svg {
-        fill: #2f2f2f;
-    }
-
-    li {
-        margin-bottom: 0.3rem;
-    }
-
-
-
-    .external-link::after {
-        background: transparent url(/wiki/obs.html/static/external.svg) 0 0 no-repeat;
-        background-size: auto;
-        background-size: 16px;
-        content: "";
-        height: 16px;
-        margin-left: 3px;
-        width: 16px;
-        display: inline-block;
-        filter: invert(90%) sepia(6%) saturate(9%) hue-rotate(14deg) brightness(90%) contrast(93%);
-    }
-
-
-
-    span.tag {
-        font-weight: 600;
-        color: rgb(57, 88, 136);
-        text-transform: capitalize;
-    }
-
-
-    .graph_svg {
-        width: 100%;
-        height: 400px;
-    }
-
-
-    .header {
         margin: 1rem;
-        margin-bottom:2rem;
-        background-color: var(--header-bg);
-        scroll-margin-top: 20rem;
-        overflow-anchor: none;
-    }
-
-    .navbar-button {
-        margin-top: 0.5rem;
-        margin-left: 0rem;
-
-    }
-    .navbar-link {
-        display: block;
-        padding: 0.7rem;
-        border-radius: 0.4rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.2rem;
-        margin-top: -0.2rem;
-        margin-bottom: 0.7rem;
-        max-height: 1.5rem;
-    }
-
-    #homelink:visited {
-        color: rgb(var(--accent-color));
-    }
-    #homelink:link {
-        color: rgb(var(--accent-color));
-    }
-    /* #homelink {
-        width: 15.5rem;
-        background-color: 65, 76, 25314;
-        padding: 1rem;
-        padding-top:0.5rem;
-        padding-bottom:0.5rem;
-        max-width: max-content;
-        margin-top: -1rem;
-        margin-left: 0rem;
-        margin-right: 0.5rem;
-        border-radius: 0.3rem;    
-        max-height: 1.5rem;
-    } */
-
-    .toc {
-        display: none;
+        background-color: #e3e3e3;
         
-        background-color: 65, 76, 25308;
-        padding: 1rem;
-        padding-top: 0.2rem;
-        border-radius: 0.6rem;
-        margin-bottom: 1rem;
-        padding-right: 2rem;    
     }
-    .icon-tray {
-        margin-left: 1rem;
-        margin-top: -0.1rem;
-    }
-    @media (max-width: 602px) {
-        #header_flex {
-            flex-direction: column;
-            margin-top: -1rem;
-        }
-        #header_flex2 {
-            flex-direction: column;
-            margin-top: -1rem;
-        }
-        .header {
-            padding: 0px;
-        }
-        .icon-tray {
-            position: initial;
-            margin: auto;
-        }
-        .navbar-button {
-            display: block;
-            margin: auto;
-            margin-top: -1rem;
-            margin-bottom: 1rem;
-        }
-        #homelink {
-            display: none
-        }
-        .header {
-            margin: auto;
-            margin-bottom: 0rem;
-            margin-top: 1rem;
-            padding-bottom: 0rem;        
-        }
+    .container {
+        margin:auto;
+        background-color: white;
+        box-shadow: 4px 4px 11px 0px rgba(0,0,0,0.38);
     }
 
+    .codehilite {
+        color: rgb(98, 35, 16);
+    } 
 
+    @media (max-width: 840px) {
+        body {
+            margin: 0rem;
+            background-color: unset;
+        }
+        .container {
+            box-shadow: unset;
+        }
+        .codehilite {
+            width: calc(100vw - 4rem);
+            overflow-x: scroll;
+        } 
+    }
+}
 
 /*  ----------------------------------------- THEME ------------------------------------------------ */
 

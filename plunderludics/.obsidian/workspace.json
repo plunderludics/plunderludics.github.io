@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dea91d60fc68b3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "guides/setting up the wiki.md",
+                "file": "devlogs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guides/setting up the wiki.md",
+                "file": "devlogs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "guides/setting up the wiki.md",
+                "file": "devlogs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guides/setting up the wiki.md"
+                "file": "devlogs.md"
               }
             }
           }
@@ -166,12 +153,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1dea91d60fc68b3c",
+  "active": "5c769b03c474f361",
   "lastOpenFiles": [
-    "directory.md",
     "index.md",
-    "devlogs.md",
     "references.md",
+    "directory.md",
+    "devlogs.md",
+    "guides/setting up the wiki.md",
     "other plunderludics/other plunderludics.md",
     "tools/libsm64-unity.md",
     "tools/Untitled.md",
@@ -188,7 +176,6 @@
     "experiments/mario lylat system.md",
     "tools/mame.md",
     "experiments/tapestry.md",
-    "guides/setting up the wiki.md",
     "experiments/media/2023-06-02-tapestry4-3.png",
     "experiments/media/2023-06-02-tapestry4-1.png",
     "experiments/media/2023-06-02-tapestry4-2.png",
