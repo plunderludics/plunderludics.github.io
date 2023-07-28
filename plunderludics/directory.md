@@ -1,4 +1,4 @@
-this is a list of all the plunderludic games we're aware of. certainly incomplete... [[index#contact|get in touch]] if you know any that aren't on this list!
+this is a list of all the plunderludic games we're aware of. certainly incomplete... [[plunderludics#contact|get in touch]] if you know any that aren't on this list!
 
 ## videogames
 ### [mario_battle_no.1](https://myfanwy.ca/html/mario.html)

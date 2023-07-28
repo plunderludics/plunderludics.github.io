@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devlogs.md",
+                "file": "plunderludics.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devlogs.md",
+                "file": "plunderludics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devlogs.md",
+                "file": "plunderludics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devlogs.md"
+                "file": "plunderludics.md"
               }
             }
           }
@@ -153,14 +153,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48eb8aa5649d551f",
+  "active": "5c769b03c474f361",
   "lastOpenFiles": [
+    "devlogs.md",
     "master.css",
     "favicon.ico",
-    "index.md",
+    "plunderludics.md",
     "references.md",
     "directory.md",
-    "devlogs.md",
     "guides/setting up the wiki.md",
     "other plunderludics/other plunderludics.md",
     "tools/libsm64-unity.md",
@@ -200,7 +200,6 @@
     "Untitled.canvas",
     "experiments/media/2022-10-28-chainchomp-matte.mp4",
     "experiments/media/2022-10-21-killer-instinct-matte.mp4",
-    "experiments/media/2022-10-21-mario-lylat-system2.mp4",
-    "experiments/media/2022-10-28-linked-jumps.mp4"
+    "experiments/media/2022-10-21-mario-lylat-system2.mp4"
   ]
 }

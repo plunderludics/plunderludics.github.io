@@ -1,3 +1,4 @@
+plunderludics means making games out of games.
 
 heavily inspired by [metagaming](https://www.upress.umn.edu/book-division/books/metagaming) and [plunderphonics](http://plunderphonics.com/), we are trying to explore the possibilities of creating new media using existing emulated videogames as raw material.
 
