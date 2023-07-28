@@ -68,24 +68,34 @@
             }
           },
           {
-            "id": "7be3ee2f7227b288",
+            "id": "06554d9a6997e6b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides/setting up the wiki.md",
+                "file": "guides/plundering 101.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "06554d9a6997e6b7",
+            "id": "a2fe6e7240acb771",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
+          },
+          {
+            "id": "cadaf56d8313c29e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/jsnes.md",
+                "file": "experiments/mario lylat system.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +119,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/obs.md",
+                "file": "experiments/tapestry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2aeb0a34e14e3819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2842899be79d5167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-12-03 babycastles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f55b51c5e9c53516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guides/setting up the wiki.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -231,6 +277,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9218f0a85c3a877c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -298,8 +352,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -315,45 +368,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7be3ee2f7227b288",
+  "active": "f55b51c5e9c53516",
   "lastOpenFiles": [
-    "techniques.md",
-    "Spring Salad.md",
-    "guides/plundering 101.md",
-    "Home.md",
-    "guides/setting up the wiki.md",
-    "other plunderludics/other plunderludics.md",
+    "index.md",
+    "experiments/media/2023-06-02-tapestry4-3.png",
+    "experiments/media/2023-06-02-tapestry4-1.png",
+    "experiments/media/2023-06-02-tapestry4-2.png",
+    "experiments/media/2022-12-01-mmbs2-2.png",
+    "experiments/media/2022-12-01-mmbs2-0.png",
+    "experiments/media/2023-06-02-tapestry4-4.png",
+    "experiments/media/2023-06-02-tapestry4-5.png",
+    "experiments/media/2023-06-02-tapestry4-internal.png",
     "devlogs/2023-02-25 spring salad.md",
-    "devlogs/2022-12-03 babycastles.md",
-    "devlogs/2022-10-28.md",
-    "devlogs/2022-10-21.md",
-    "devlogs/2022-10-07.md",
-    "experiments/mario lylat system.md",
-    "experiments/media/2022-10-28-chainchomp-matte.mp4",
-    "experiments/media/2022-10-21-killer-instinct-matte.mp4",
-    "experiments/media/2022-10-21-checkers.jpg",
-    "experiments/media/2022-10-21-mario-lylat-system2.mp4",
-    "experiments/linked jumps.md",
-    "experiments/media/2022-10-28-linked-jumps.mp4",
+    "experiments/violence medium.md",
     "experiments/mario feedback.md",
-    "tools/bizhawk.md",
+    "techniques.md",
+    "experiments/mario mario's bro skater 2.md",
     "experiments/mario angst.md",
-    "tools/plunderunity.md",
-    "tools/().md",
-    "guides",
-    "experiments/media/2022-10-07-mario-feedback-5.mp4",
-    "experiments/media/2022-10-07-mario-feedback-4.mp4",
-    "experiments/media/2022-10-07-mario-feedback-3.mp4",
-    "experiments/media/2022-10-07-mario-feedback-2.mp4",
-    "experiments/media/2022-10-07-mario-feedback-1.mp4",
+    "experiments/unity.md",
     "experiments/mario flicker.md",
     "experiments/mario ghost.md",
-    "experiments/violence medium.md",
-    "experiments/video interpolation.md",
-    "tools/vcv rack.md",
-    "tools/touch designer.md",
-    "tools/osc.md",
+    "experiments/mario lylat system.md",
+    "devlogs/2022-12-03 babycastles.md",
+    "devlogs/tonytony.md",
+    "media/2022-12-01-mmbs2-0.png",
+    "media",
+    "experiments/tapestry.md",
+    "experiments/media/2022-10-07-mario-feedback-3.mp4",
+    "experiments/media/2022-10-07-mario-feedback-2.mp4",
+    "experiments/media/2022-10-07-mario-feedback-4.mp4",
+    "experiments/media/2022-10-07-mario-feedback-1.mp4",
     "tools/obs.md",
-    "Pasted image 20230407163403.png"
+    "tools/mame.md",
+    "tools/bizhawk.md",
+    "experiments/linked jumps.md",
+    "experiments/media/tapestry4-5.png",
+    "tools/touch designer.md",
+    "Home.md",
+    "Untitled.canvas",
+    "devlogs/2022-10-28.md",
+    "devlogs/2022-10-07.md",
+    "guides/plundering 101.md",
+    "guides/setting up the wiki.md",
+    "tools/vcv rack.md",
+    "experiments/media/2022-10-28-chainchomp-matte.mp4",
+    "experiments/media/2022-10-21-killer-instinct-matte.mp4",
+    "experiments/media/2022-10-21-mario-lylat-system2.mp4",
+    "experiments/media/2022-10-28-linked-jumps.mp4",
+    "guides"
   ]
 }
