@@ -6,7 +6,7 @@ this website is an effort to document our work, other work in the plunderludic g
 ## [[directory]]
 a big list of all the plunderludic games we're aware of
 
-### [[references]]
+## [[references]]
 references and inspirations from games and other media 
 
 ## guides
@@ -15,6 +15,8 @@ references and inspirations from games and other media
 
 ## [[devlogs]]
 ongoing log of plunderludic experiments and tool development
+
+we also made this youtube video going over plunderludics and some of our experiments: https://www.youtube.com/watch?v=9SQQ-M__ZrI
 
 ## contact
 if you want to know more, want to make your own plunderludics, want help setting up any of the tools, know some plunderludic work that isn't listed on this website, or want to say hi, join the discord - https://discord.gg/ATJSh8W8dp
