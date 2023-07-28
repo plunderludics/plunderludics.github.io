@@ -155,6 +155,7 @@
   },
   "active": "48eb8aa5649d551f",
   "lastOpenFiles": [
+    "master.css",
     "favicon.ico",
     "index.md",
     "references.md",
@@ -200,7 +201,6 @@
     "experiments/media/2022-10-28-chainchomp-matte.mp4",
     "experiments/media/2022-10-21-killer-instinct-matte.mp4",
     "experiments/media/2022-10-21-mario-lylat-system2.mp4",
-    "experiments/media/2022-10-28-linked-jumps.mp4",
-    "guides"
+    "experiments/media/2022-10-28-linked-jumps.mp4"
   ]
 }

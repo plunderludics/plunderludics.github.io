@@ -109,8 +109,8 @@ file_exports:
   - encoding: binary
     src: favicon.ico
     dst: favicon.ico
-#   - src: Resources/Includes/christmas_snowflakes.js
-#     dst: obs.html/static/christmas_snowflakes.js
+  - src: master.css
+    dst: obs.html/static/master.css
 
 ##########################################################################
 #                    OPTIONAL BEHAVIOR / FEATURES                        #
