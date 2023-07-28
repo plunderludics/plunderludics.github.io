@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plunderludics.md",
+                "file": "devlogs/2023-02-25 spring salad.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plunderludics.md",
+                "file": "devlogs/2023-02-25 spring salad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "plunderludics.md",
+                "file": "devlogs/2023-02-25 spring salad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "plunderludics.md"
+                "file": "devlogs/2023-02-25 spring salad.md"
               }
             }
           }
@@ -156,18 +156,18 @@
   "active": "5c769b03c474f361",
   "lastOpenFiles": [
     "devlogs.md",
+    "devlogs/2022-12-03 babycastles.md",
+    "directory.md",
+    "plunderludics.md",
     "master.css",
     "favicon.ico",
-    "plunderludics.md",
     "references.md",
-    "directory.md",
     "guides/setting up the wiki.md",
     "other plunderludics/other plunderludics.md",
     "tools/libsm64-unity.md",
     "tools/Untitled.md",
     "experiments/mario flicker.md",
     "devlogs/2023-02-25 spring salad.md",
-    "devlogs/2022-12-03 babycastles.md",
     "devlogs/2022-10-28.md",
     "devlogs/2022-10-07.md",
     "devlogs/2022-10-21.md",

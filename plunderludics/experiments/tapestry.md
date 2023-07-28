@@ -7,7 +7,7 @@ since connecting the games spatially from games' states themselves is really har
 
 
 mut wrote this for Festival Ecrã 2023: 
-```
+```text
 multiple third person games from 5th generation consoles (psx, n64), cut, sampled, limited and blended as such to allow for textural exploration.
 
 a plunderludic experiment that plays with memory and nostalgia and the meaning of moving within and around videogames. exploring the relation of the infinite possibilities of plays within constrained virtual spaces, which sometimes might mean pushing your avatar into a wall until it becomes something else

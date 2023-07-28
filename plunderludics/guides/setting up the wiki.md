@@ -25,7 +25,7 @@ tbd
 
 in order to update the website version of the wiki, you need to have [obsidian-html](https://obsidian-html.github.io/) installed. once its installed, all you need to do to update the public website is to run:
 
-```
+```bash
 obsidianhtml convert -i config.yaml
 ```
 

@@ -25,7 +25,7 @@ together sharing a corner of the space were Cory Arcangel's Super Slow Tetris, a
 ---
 
 bennett foddy wrote
-```
+```text
 it was nice to see all the different things! I guess the main thing it makes me think about is the various different roles the emulated games play in these pieces - how it feels different in Patrick's '99 exercises' for it not to be emulated.
 
 In Jonny's tetris games, it is really important that it is an recognizable game, and I think also important that it is tetris in particular. Part of it is that it's reframing something that the player already knows how to do in a deep way as something that is hard or impossible... it sets up a metaphor for feeling overwhelmed in life, that there are tasks that would be easy if taken alone that become impossible taken as a set. Similarly in that Arcangel Tetris piece, it's important that everyone who sits down with it has an opinion about how it ought to be played - so there can be collaborative play, discussion and disagreement and so on. In these cases it's important that it looks like historic versions of tetris, and plays like tetris, but maybe it's not important that it's emulated?
