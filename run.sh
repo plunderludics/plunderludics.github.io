@@ -1,1 +1,1 @@
-obsidianhtml run -i config.yaml --clean --subfolder '.'
+obsidianhtml run -i config.yaml --clean
