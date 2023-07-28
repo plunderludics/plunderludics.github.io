@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="how to plunderludics">
+                <meta name="node_id" content="references">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/wiki/favicon.ico" />
 
@@ -25,8 +25,8 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'how to plunderludics';
-                        const PAGE_DEPTH = 1;
+                        const CURRENT_NODE = 'references';
+                        const PAGE_DEPTH = 0;
                 </script>
         </head>
 
@@ -264,90 +264,28 @@
                 <div class="flex_row" id="container_row">
                         <div class="container-wrapper ">
                                 <div class="container">
-                                <embeddedtitle>how to plunderludics</embeddedtitle>
+                                <embeddedtitle>references</embeddedtitle>
 <div class="content"><div class="toc">
-<ul>
-<li><a href="#intro" class="anchor-link">Intro</a><ul>
-<li><a href="#preliminaries" class="anchor-link">Preliminaries</a></li>
-</ul>
-</li>
-<li><a href="#setting-up" class="anchor-link">Setting up</a><ul>
-<li><a href="#download-plunder-repos" class="anchor-link">Download plunder repos</a></li>
-<li><a href="#install-bizhawk" class="anchor-link">Install BizHawk</a></li>
-<li><a href="#find-a-rom" class="anchor-link">Find a rom</a></li>
-</ul>
-</li>
-<li><a href="#sampling" class="anchor-link">Sampling</a><ul>
-<li><a href="#make-a-sample" class="anchor-link">Make a sample</a></li>
-<li><a href="#run-the-sample" class="anchor-link">Run the sample</a></li>
-</ul>
-</li>
-<li><a href="#more" class="anchor-link">More</a><ul>
-<li><a href="#postprocessing-in-unity" class="anchor-link">Postprocessing in Unity</a></li>
-<li><a href="#basic-scripting" class="anchor-link">Basic scripting</a></li>
-<li><a href="#ram-hacking" class="anchor-link">RAM hacking</a></li>
-</ul>
-</li>
-</ul>
+<ul></ul>
 </div>
-<h2 id="intro">Intro</h2>
-<p>plunderludics is like sampling records but for games instead of music. if you wanna know more go <a href="/wiki/index.html">index</a>   </p>
-<p>we have been playing around with this stuff for a while and found a bunch of helpful tools that make the whole thing a bit easier.   </p>
-<p>this tutorial is like a step-by-step guide to help you get started. We are gonna grab a sample from Mario 64 and do some crazy stuff with it.   </p>
-<h3 id="preliminaries">Preliminaries</h3>
-<p>This whole thing probably only works on Windows atm :/   </p>
-<p>Tutorial assumes you have a little bit of familiarity with emulators, you know what a 'save state' is, etc. Being familiar with Unity &amp; Lua will also help in the later parts.   </p>
-<p>Being familiar with using the command line and Python will also be very convenient but not totally necessary.   </p>
-<h2 id="setting-up">Setting up</h2>
-<h3 id="download-plunder-repos">Download plunder repos</h3>
-<p>Clone or download this repo: <a href="https://github.com/plunderludics/samples." class="external-link">https://github.com/plunderludics/samples.</a> <br />
-This has a bunch of videogame samples that we have created and also a script for conveniently running them. <br />
-Also this one: <a href="https://github.com/plunderludics/scripts," class="external-link">https://github.com/plunderludics/scripts,</a> which has a BizHawk configuration file (very useful) and a bunch of other scripts you probably don't need right now.   </p>
-<h3 id="install-bizhawk">Install BizHawk</h3>
-<p>First you gotta get [https://tasvideos.org/BizHawk|BizHawk]. BizHawk is a great open-source project that packages up a bunch of emulators for different platforms - NES, PSX, N64, + like 100 other platforms. It is useful for this stuff because it has nice Lua scripting support (we will get to this later).   </p>
-<p>So go to the BizHawk link and download it (we are currently using the latest version, 2.9.1). You also need to run the 'prereq installer' to install a bunch of dependencies. <br />
-Once you've installed the prereqs, unzip the BizHawk folder. EmuHawk.exe is the main executable, run it. You should just see a black window right now because no game is loaded.   </p>
-<h3 id="find-a-rom">Find a rom</h3>
-<p>To run a game in BizHawk you gotta find a rom (the file that contains the game). It is not hard to find roms online for pretty much any game by searching for '\&lt;game name&gt; \&lt;platform&gt; \&lt;rom&gt;'. For this tutorial we will our favorite Mario 64.   </p>
-<p>So download the rom, then open it in BizHawk, and the game should just start running. Now you can play Mario 64 on your computer.   </p>
-<p>To make the rest of the tutorial more convenient, make a directory called <code>roms</code> in the same directory as BizHawk. Put the mario rom file in there, and rename it to <code>mario.z64</code> for simplicity. Also put the <code>samples</code> directory in the same parent directory.   </p>
-<p>So file hierarchy would look like:   </p>
+<p>things which aren't exactly <a href="/wiki/directory.html">plunderludics</a>, but which we see as important references for the genre or inspirations for our own work   </p>
 <ul>
-<li>plunderludics   <ul>
-<li>BizHawk   </li>
-<li>roms   <ul>
-<li>mario.z64   </li>
-</ul>
-</li>
-<li>samples   </li>
-<li>scripts   </li>
-</ul>
-</li>
-</ul>
-<h2 id="sampling">Sampling</h2>
-<p>OK so in music a 'sample' usually means a fragment of audio ripped from a longer track. In plunderludics the meaning is a little more vague but we imagine the equivalent as being like a  'moment' of gameplay ripped from an existing game. E.g. maybe we like the little bit of gameplay where mario can spin around at the top of a tree outside the castle.   </p>
-<h3 id="make-a-sample">Make a sample</h3>
-<p>The most important piece of a plunderludic sample is a save state. So we get mario up to the top of the tree, and then hit 'Save Named State' in BizHawk to save the state. Make a new folder in the <code>samples</code> directory called something like <code>mario-in-tree</code>, and save the state file within that directory (called something like <code>mario-in-tree.State</code>)   </p>
-<p>[Ignore this bit if you don't want to use Python/command line] <br />
-This part is a bit annoying, but you should also make a file called <code>rompath.txt</code> inside the <code>mario-in-tree</code> directory, and put this text inside: <code>../roms/mario.z64</code>. This lets our run_sample.py script (see below) know which rom this particular sample is connected to.   </p>
-<h3 id="run-the-sample">Run the sample</h3>
-<p>The easiest way to run the sample is open BizHawk, load the mario rom, and then load the state that you just saved. But this can be annoying if you have to do those steps many times while working on something. So we also have a script called <code>run_sample.py</code> which basically automates those steps. If you have a command line + Python installed, you can run it like this, from the <code>samples</code> directory: <br />
-<code>python run_sample.py mario-in-tree</code>.   </p>
-<p>From here you can get started sampling your favorite videogame moments.   </p>
-<h2 id="more">More</h2>
-<p>If you want to be able to do stuff like applying effects to the game graphics, overlaying different games on top of each other, etc, read 'Postprocessing in Unity'.   </p>
-<p>If you want to be able to modify the samples themselves - (e.g. we could disable the up &amp; down controls so mario can't climb down the tree), read 'basic scripting'.   </p>
-<p>For actually modifying the state of the emulated game in RAM (like changing Mario's health value or position, etc), read 'RAM hacking'.   </p>
-<h3 id="postprocessing-in-unity">Postprocessing in Unity</h3>
-<p>Clone or download: <a href="https://github.com/plunderludics/plunderunity" class="external-link">https://github.com/plunderludics/plunderunity</a> <br />
-Put that inside your top-level plunderludics directory as well. <br />
-<code>plunderunity</code> is a Unity project with some tools for plundering. The most important thing it can do is capture another window on the computer (e.g. BizHawk), and let you use that as a texture within Unity.   </p>
-<p>More to come, but to get started check out the SoftwareSample prefab. <br />
-...   </p>
-<h3 id="basic-scripting">Basic scripting</h3>
-<p>...   </p>
-<h3 id="ram-hacking">RAM hacking</h3>
-<p>...</p></div>
+<li><a href="http://plunderphonics.com/" class="external-link">plunderphonics</a> by John Oswald   </li>
+<li><a href="https://www.youtube.com/watch?v=0YpM0x61DGo" class="external-link">Steps (1987)</a> by Zbigniew Rybczsinksi   </li>
+<li><a href="http://www.oikospiel.com/" class="external-link">Oikospiel</a> by David Kanaga   </li>
+<li><a href="https://www.glorioustrainwrecks.com/node/10585" class="external-link">100 Free Beetles</a> by Marek Kapolka : game and accompanying short essay   </li>
+<li><a href="https://desktop-metaphor.itch.io/longpig" class="external-link">longpig</a> by Desktop Metaphor : plundercomics   </li>
+<li><a href="https://www.increpare.com/2017/08/running_memories/" class="external-link">running memories</a> by increpare   </li>
+<li><a href="https://www.youtube.com/watch?v=S85S5q-MpXA" class="external-link">sechniquexz</a> by yeongrak   </li>
+<li><a href="https://www.instagram.com/animonaomi/" class="external-link">animonaomi collages</a> by animonaomi   </li>
+<li><a href="https://idkllr.itch.io/shorlspace22" class="external-link">SHORLSPACE 22</a> by idkllr (and all of idkllr's work)   </li>
+<li><a href="https://www.youtube.com/watch?v=OV_ZN-8uy4w" class="external-link">any austin youtube channel</a> by any austin : appreciating skyboxes, unremarkable and odd places, and things you've never seen before in multiple games   </li>
+<li><a href="https://itch.io/c/2861178/plundercore" class="external-link">'Plundercore'</a> : compiled by JohnLee Cooper; "Games made up of stolen pieces from recognizable works that recontextualize those pieces into new and beautiful things, often playing off of their pre-existing meanings and contexts."   </li>
+<li><a href="https://wiki.xxiivv.com/site/purgateus.html" class="external-link">Purgateus</a> by Devine Lu Linvega : remix of the game Proteus with new assets and music   </li>
+<li><a href="http://timeline.manetas.com/works/videos/aftervideogames/" class="external-link">'Art After Videogames'</a> by Miltos Manetas : collection of very early (1997) machinima videos and accompanying manifesto   </li>
+<li>in general: game mods, speedrunning tools, rom hacks   </li>
+<li>in general: machinima</li>
+</ul></div>
 <div class="note-footer">
 <div class="backlinks">
 <h2>Backlinks</h2>

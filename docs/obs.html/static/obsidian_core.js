@@ -10,7 +10,7 @@ var CONFIGURED_HTML_URL_PREFIX = "/wiki";
 var RELATIVE_PATHS = 0;
 var documentation_mode = 0;
 var tab_mode = !no_tab_mode;
-var gzip_hash = '136062757763301453263719919816077948'                       // used to check whether the localStorage data is stale
+var gzip_hash = '153222396210999639585017325063510284718'                       // used to check whether the localStorage data is stale
 
 // global cache
 var fn_cache_ls_available = null;

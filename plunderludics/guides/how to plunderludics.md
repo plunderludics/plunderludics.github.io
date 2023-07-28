@@ -1,5 +1,5 @@
 ## Intro
-plunderludics is like sampling records but for games instead of music. if you wanna know more go [[plunderludics/index|index]]
+plunderludics is like sampling records but for games instead of music. if you wanna know more go [[index|index]]
 
 we have been playing around with this stuff for a while and found a bunch of helpful tools that make the whole thing a bit easier.
 
