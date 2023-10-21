@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b754301ed98a9272",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c769b03c474f361",
+  "active": "b754301ed98a9272",
   "lastOpenFiles": [
     "devlogs.md",
     "devlogs/2022-12-03 babycastles.md",
