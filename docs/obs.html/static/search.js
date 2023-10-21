@@ -7,7 +7,7 @@ var SEARCH_DATA = [];                          // SEARCH_DATA_SOURCE with change
 
 var URL_MODE = 'absolute';
 var RELATIVE_PATHS = 0;
-var CONFIGURED_HTML_URL_PREFIX = '/wiki';
+var CONFIGURED_HTML_URL_PREFIX = '';
 var TRY_PRELOAD = 0;
 
 var fuse;                               // fuzzy search object
