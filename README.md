@@ -1,3 +1,5 @@
+This wiki should be live at https://plunderludics.github.io/
+
 this wiki is being made using [obsidian](https://obsidian.md/), which is a pretty straightforward text editor with some nifty functionalities that makes writing wiki-style text pretty nice. in particular the ability to simply create links to other pages in the wiki like this: `[[setting up the wiki]]`
 
 since its all based on markdown files, it also gives us some other nice properties:
