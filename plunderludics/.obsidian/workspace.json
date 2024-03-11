@@ -8,7 +8,173 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c769b03c474f361",
+            "id": "47bebfb438015aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-10-21.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1b26de6a8e02afd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "experiments/mario feedback.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "020fe11750e9a362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/plunderunity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fea381fe9458ae8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "experiments/mario angst.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06554d9a6997e6b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guides/plundering 101.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2fe6e7240acb771",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
+          },
+          {
+            "id": "cadaf56d8313c29e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "experiments/mario lylat system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccb87596e7cf8a90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/mame.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcf6f20d7531cf27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "experiments/tapestry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2842899be79d5167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-12-03 babycastles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f55b51c5e9c53516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "guides/how to plunderludics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3acfa82f3fa899b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-10-07.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d816d3fc9bb5f94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-10-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a611a4b27e7acce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlogs/2022-12-03 babycastles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ad809b2d5fd5b26",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,17 +186,19 @@
             }
           },
           {
-            "id": "b754301ed98a9272",
+            "id": "c8b4a29b2f3d7204",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.7"
+                "file": "experiments/mario flicker.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -104,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md",
+                "file": "guides/how to plunderludics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md",
+                "file": "guides/how to plunderludics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +312,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devlogs/2023-02-25 spring salad.md"
+                "file": "guides/how to plunderludics.md"
               }
             }
           }
@@ -164,31 +332,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b754301ed98a9272",
+  "active": "48eb8aa5649d551f",
   "lastOpenFiles": [
-    "devlogs.md",
-    "devlogs/2022-12-03 babycastles.md",
-    "directory.md",
+    "experiments/media/2024-02-24-looped-play-9.png.~tmp",
+    "experiments/media/2024-02-24-looped-play-9.png",
+    "experiments/media/2024-02-24-looped-play-8.png.~tmp",
+    "experiments/media/2024-02-24-looped-play-8.png",
+    "experiments/media/2024-02-24-looped-play-7.png.~tmp",
+    "experiments/media/2024-02-24-looped-play-7.png",
+    "tools/unityhawk.md",
+    "tools/libsm64-unity.md",
+    "references.md",
     "plunderludics.md",
     "master.css",
     "favicon.ico",
-    "references.md",
+    "directory.md",
+    "devlogs.md",
+    "techniques.md",
+    "index.md",
     "guides/setting up the wiki.md",
-    "other plunderludics/other plunderludics.md",
-    "tools/libsm64-unity.md",
-    "tools/Untitled.md",
-    "experiments/mario flicker.md",
-    "devlogs/2023-02-25 spring salad.md",
-    "devlogs/2022-10-28.md",
-    "devlogs/2022-10-07.md",
-    "devlogs/2022-10-21.md",
-    "experiments/mario feedback.md",
-    "tools/plunderunity.md",
-    "experiments/mario angst.md",
     "guides/plundering 101.md",
-    "experiments/mario lylat system.md",
-    "tools/mame.md",
-    "experiments/tapestry.md",
+    "guides/how to plunderludics.md",
+    "experiments/mario angst.md",
+    "experiments/mario feedback.md",
     "experiments/media/2023-06-02-tapestry4-3.png",
     "experiments/media/2023-06-02-tapestry4-1.png",
     "experiments/media/2023-06-02-tapestry4-2.png",
@@ -196,21 +362,24 @@
     "experiments/media/2022-12-01-mmbs2-0.png",
     "experiments/media/2023-06-02-tapestry4-4.png",
     "experiments/media/2023-06-02-tapestry4-5.png",
-    "experiments/media/2023-06-02-tapestry4-internal.png",
+    "devlogs/2023-02-25 spring salad.md",
     "experiments/violence medium.md",
-    "techniques.md",
     "experiments/mario mario's bro skater 2.md",
     "experiments/unity.md",
-    "media/2022-12-01-mmbs2-0.png",
+    "experiments/mario flicker.md",
+    "experiments/mario ghost.md",
+    "experiments/mario lylat system.md",
+    "devlogs/2022-12-03 babycastles.md",
+    "devlogs/tonytony.md",
     "media",
+    "experiments/tapestry.md",
     "experiments/media/2022-10-07-mario-feedback-3.mp4",
     "experiments/media/2022-10-07-mario-feedback-2.mp4",
     "experiments/media/2022-10-07-mario-feedback-4.mp4",
     "experiments/media/2022-10-07-mario-feedback-1.mp4",
-    "experiments/media/tapestry4-5.png",
+    "tools/obs.md",
+    "tools/mame.md",
     "Untitled.canvas",
-    "experiments/media/2022-10-28-chainchomp-matte.mp4",
-    "experiments/media/2022-10-21-killer-instinct-matte.mp4",
-    "experiments/media/2022-10-21-mario-lylat-system2.mp4"
+    "experiments/media/2022-10-28-chainchomp-matte.mp4"
   ]
 }
