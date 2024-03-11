@@ -11,10 +11,10 @@ Gurn Group, February 2023. [pl 1](https://gurnburial.itch.io/pl-1), [pl 2](https
 
 Jonny Hopkins, February 2023. *Tetris, but all at once, but all at once*
 
-Jonny Hopkins, August 2022. [*Tetris, but all at once*](https://jwhop.itch.io/tetris-but-all-at-once-public-version).
-
-Gurn Group, February 2023. *Violence: medium*
+Gurn Group, November 2022. *Violence: medium*
 
 mut moochi, September 2022. [*Auto Mario*](https://nes.mut.media/goodluck.html)
+
+Jonny Hopkins, August 2022. [*Tetris, but all at once*](https://jwhop.itch.io/tetris-but-all-at-once-public-version).
 ## tools
 (Development ongoing) [UnityHawk](https://github.com/plunderludics/unityhawk) is a tool for development and distribution of plunderludics using the Unity game engine and the BizHawk emulation platform.
