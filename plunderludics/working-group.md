@@ -7,7 +7,7 @@ December 2022. *Babycastles: maybe the last event ever*. at [babycastles](https:
 ## games
 mut moochi, February 2023. *tapestry*.
 
-Gurn Group, February 2023. [pl 1](https://gurnburial.itch.io/pl-3), [pl 2](https://gurnburial.itch.io/pl-3), [pl 3](https://gurnburial.itch.io/pl-3).
+Gurn Group, February 2023. [pl 1](https://gurnburial.itch.io/pl-1), [pl 2](https://gurnburial.itch.io/pl-2), [pl 3](https://gurnburial.itch.io/pl-3).
 
 Jonny Hopkins, February 2023. *Tetris, but all at once, but all at once*
 
