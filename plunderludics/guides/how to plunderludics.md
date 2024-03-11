@@ -1,5 +1,5 @@
 ## Intro
-plunderludics is like sampling records but for games instead of music. if you wanna know more go [[plunderludics|plunderludics]]
+plunderludics is like sampling records but for games instead of music. if you wanna know more go [[index|here]]
 
 we have been playing around with this stuff for a while and found a bunch of helpful tools that make the whole thing a bit easier.
 
@@ -20,7 +20,7 @@ This has a bunch of videogame samples that we have created and also a script for
 Also this one: https://github.com/plunderludics/scripts, which has a BizHawk configuration file (very useful) and a bunch of other scripts you probably don't need right now.
 
 ### Install BizHawk
-First you gotta get [https://tasvideos.org/BizHawk|BizHawk]. BizHawk is a great open-source project that packages up a bunch of emulators for different platforms - NES, PSX, N64, + like 100 other platforms. It is useful for this stuff because it has nice Lua scripting support (we will get to this later).
+First you gotta get [https://tasvideos.org/BizHawk|BizHawk]. BizHawk is a great open-source project that packages up a bunch of emulators - NES, PSX, N64, + like 100 other platforms. It is useful for this stuff because it supports a lot of platforms and it has nice Lua scripting support (we will get to this later).
 
 [//]: # (TODO at some point soon gotta replace this with our fork - guess we need to maintain a release page too)
 

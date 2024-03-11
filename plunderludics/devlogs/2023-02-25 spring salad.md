@@ -1,4 +1,4 @@
-photos of the event [here]()
+photos of the event [[misc/2023-02-26 spring salad/2023-02-26 spring salad|here]]
 
 we showed some of our work accompanied by some of the many references.
 
