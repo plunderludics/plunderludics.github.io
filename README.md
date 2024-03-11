@@ -24,8 +24,7 @@ tbd: following [this tutorial](https://lucidhacker.substack.com/p/setting-up-git
 tbd
 
 ## publishing the wiki
-
-in order to update the website version of the wiki, you need to have [obsidian-html](https://obsidian-html.github.io/) installed. once its installed, all you need to do to update the public website is to run:
+Website is built using (obsidianhtml 3.5.2)[https://pypi.org/project/obsidianhtml/3.5.2/]. (Doesn't work with version 4!). Once that is installed, update the public website  by running:
 
 ```bash
 obsidianhtml convert -i config.yaml
