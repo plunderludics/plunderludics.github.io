@@ -13,5 +13,7 @@ things which aren't exactly [[directory|plunderludics]], but which we see as imp
 - ['Plundercore'](https://itch.io/c/2861178/plundercore) : compiled by JohnLee Cooper; "Games made up of stolen pieces from recognizable works that recontextualize those pieces into new and beautiful things, often playing off of their pre-existing meanings and contexts."
 - [Purgateus](https://wiki.xxiivv.com/site/purgateus.html) by Devine Lu Linvega : remix of the game Proteus with new assets and music
 - ['Art After Videogames'](http://timeline.manetas.com/works/videos/aftervideogames/) by Miltos Manetas : collection of very early (1997) machinima videos and accompanying manifesto
+- [mario_battle_no.1](https://myfanwy.ca/html/mario.html) and other rom hacks by Myfanwy Ashmore
+- [Super Slow Tetris](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris) and other rom hacks by Cory Arcangel
 - in general: game mods, speedrunning tools, rom hacks
 - in general: machinima

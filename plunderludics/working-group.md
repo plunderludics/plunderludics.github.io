@@ -1,7 +1,7 @@
 # plunderludics working group
 We are [mut moochi](https://twitter.com/mutmedia), [Jonny Hopkins](https://twitter.com/jwhopkin), and [Gurn Group](https://twitter.com/gurnburial). We are game developers with a common interest in a style of game development we call 'plunderludics', meaning using existing videogames as raw material to make new videogames (think collage, remix, sampling, etc.) Our work so far has involved historical research, curation, tool development, and game design. 
 
-Important points of inspiration are [plunderphonics](https://plunderphonics.com/xhtml/xplunder.html), [*Metagaming*](https://www.upress.umn.edu/book-division/books/metagaming), [100 Free Beetles](https://www.glorioustrainwrecks.com/node/10585), [*Oikospiel*](https://dkoikos.itch.io/oikospiel), and [*Multibowl*](http://www.foddy.net/2016/08/multibowl/), among many others.
+Important points of inspiration are [plunderphonics](https://plunderphonics.com/xhtml/xplunder.html), [*Metagaming*](https://www.upress.umn.edu/book-division/books/metagaming), [Myfanwy Ashmore](https://myfanwy.ca/html/mario.html), [Cory Arcangel](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris), [100 Free Beetles](https://www.glorioustrainwrecks.com/node/10585), [*Oikospiel*](https://dkoikos.itch.io/oikospiel), and [*Multibowl*](http://www.foddy.net/2016/08/multibowl/), among many others.
 ## shows
 February 2023. *Spring Salad: a plunderludic gathering*. at [boshi's](https://boshis-place.github.io/) in NYC. Work by Bennett Foddy & AP Thomson, Patrick LeMieux & Stephanie Boluk, Alistair Aitcheson, mut moochi, Gurn Group, Jonny Hopkins, Cory Arcangel, Lawra Clark. Curation by plunderludics working group. [[misc/2023-02-26 spring salad/2023-02-26 spring salad|photos]].
 
