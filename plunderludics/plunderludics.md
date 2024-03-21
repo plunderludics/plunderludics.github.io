@@ -2,7 +2,7 @@
 
 plunderludics means making games out of games.
 
-heavily inspired by [metagaming](https://www.upress.umn.edu/book-division/books/metagaming) and [plunderphonics](http://plunderphonics.com/), we are trying to explore the possibilities of creating new media using existing videogames as raw material.
+heavily inspired by [metagaming](https://www.upress.umn.edu/book-division/books/metagaming) and [plunderphonics](https://plunderphonics.com/xhtml/xplunder.html), we are trying to explore the possibilities of creating new media using existing videogames as raw material.
 
 this website is an effort to document our work, other work in the plunderludic genre, and provide resources for anyone interested in making similar things. let's make a thousand plunderludics together.
 

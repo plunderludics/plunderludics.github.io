@@ -1,6 +1,6 @@
 things which aren't exactly [[directory|plunderludics]], but which we see as important references for the genre or inspirations for our own work
 
-- [plunderphonics](http://plunderphonics.com/) by John Oswald
+- [plunderphonics](https://plunderphonics.com/xhtml/xplunder.html) by John Oswald
 - [Steps (1987)](https://www.youtube.com/watch?v=0YpM0x61DGo) by Zbigniew Rybczsinksi
 - [Oikospiel](http://www.oikospiel.com/) by David Kanaga
 - [100 Free Beetles](https://www.glorioustrainwrecks.com/node/10585) by Marek Kapolka : game and accompanying short essay
