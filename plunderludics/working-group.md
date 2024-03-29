@@ -3,10 +3,15 @@ We are [mut moochi](https://twitter.com/mutmedia), [Jonny Hopkins](https://twitt
 
 Important points of inspiration are [plunderphonics](https://plunderphonics.com/xhtml/xplunder.html), [*Metagaming*](https://www.upress.umn.edu/book-division/books/metagaming), [Myfanwy Ashmore](https://myfanwy.ca/html/mario.html), [Cory Arcangel](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris), [100 Free Beetles](https://www.glorioustrainwrecks.com/node/10585), [*Oikospiel*](https://dkoikos.itch.io/oikospiel), and [*Multibowl*](http://www.foddy.net/2016/08/multibowl/), among many others.
 ## shows
+
+March 2024. *Looped Play.* at the [Visualization Research Center](https://vrc.hkbu.edu.hk/) at Hong Kong Baptist University. Commissioned by Peter Nelson and Yang Jing.
+
 February 2023. *Spring Salad: a plunderludic gathering*. at [boshi's](https://boshis-place.github.io/) in NYC. Work by Bennett Foddy & AP Thomson, Patrick LeMieux & Stephanie Boluk, Alistair Aitcheson, mut moochi, Gurn Group, Jonny Hopkins, Cory Arcangel, Lawra Clark. Curation by plunderludics working group. [[misc/2023-02-26 spring salad/2023-02-26 spring salad|photos]].
 
 December 2022. *Babycastles: maybe the last event ever*. at [babycastles](https://www.babycastles.com/) in NYC.
 ## games
+Plunderludics Working Group, March 2024. *Mario Tag*.
+
 mut moochi, February 2023. *tapestry*.
 
 Gurn Group, February 2023. [pl 1](https://gurnburial.itch.io/pl-1), [pl 2](https://gurnburial.itch.io/pl-2), [pl 3](https://gurnburial.itch.io/pl-3).
