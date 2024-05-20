@@ -34,7 +34,7 @@ jobs:
       - name: install obsidianhtml
         uses: BSFishy/pip-action@v1
         with:
-          packages: obsidianhtml
+          packages: obsidianhtml==3.5.2
       - name: Build
         run: obsidianhtml convert -i config.yaml
       - name: Setup Pages
