@@ -31,12 +31,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: install obsidianhtml
-        uses: BSFishy/pip-action@v1
         with:
-          packages: obsidianhtml==3.5.2
-      - name: Build
-        run: obsidianhtml convert -i config.yaml
+          ref: main
+          path: clone-path
+      - name: Install dependencies and build
+        run: |
+          cd ${{ github.workspace }}
+          pip install --upgrade pip
+          pip install obsidianhtml==3.5.2
+          obsidianhtml convert -i clone-path/config.yaml -v
+          touch html/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
