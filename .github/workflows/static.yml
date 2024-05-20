@@ -36,12 +36,10 @@ jobs:
           path: clone-path
       - name: Install dependencies and build
         run: |
-          cd ${{ github.workspace }}
+          cd ${{ github.workspace }}/clone-path
           pip install --upgrade pip
           pip install obsidianhtml==3.5.2
-          pushd clone-path
           obsidianhtml convert -i config.yaml -v
-          popd
           touch html/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v5
