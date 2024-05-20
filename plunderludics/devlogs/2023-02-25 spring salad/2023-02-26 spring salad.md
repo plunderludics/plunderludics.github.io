@@ -26,7 +26,7 @@ Right: *Multibowl*, Bennett Foddy & AP Thomson
 
 ![[tbaaobaao.jpg]]
 Left: *Tetris, but all at once, but all at once*, Jonny Hopkins
-Right: *Super Slow Tetris*, Cory Arcangel![[Feztris.JPG]]
+Right: *Super Slow Tetris*, Cory Arcangel
 
 ![[three-skeletons 2.JPG]]
 *Three Skeletons*, Lawra Clark

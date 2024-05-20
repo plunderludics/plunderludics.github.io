@@ -1,26 +1,66 @@
-photos of the event [[misc/2023-02-26 spring salad/2023-02-26 spring salad|here]]
+photos of the event [[2023-02-26 spring salad|here]]
+
+
+![[spring-salad-poster.jpg]]
+
 
 we showed some of our work accompanied by some of the many references.
 
 going clockwise in the space where the games where shown:
 
+![[ring-shuffler-multibowl.JPG]]
+Left: *BizHawk Ring Shuffler*, Alistair Aitcheson
+Right: *Multibowl*, Bennett Foddy & AP Thomson
+
 on the projector there was AP Thompson and Bennett Foddy's Multibowl side by side with Alistair Aitcheson's Magic Box, both collections of multiple unmodified videogames, randomly swapped within some ludic structure ran: Multibowl with timed wario-ware style minigames, Magic Box with certain in-game events (collection of rings in sonic being the prominent one) causing the swap.
+
+
+![[auto-mario.JPG]]
+*Auto Mario*, mut moochi
 
 on a cellphone attached to a canvas on the corner of the room was Auto Mario, a game where players have the opportunity to play with the attract screen of an unmodified version of Super Mario Bros for the NES. by editing a specific address in memory that causes Mario to toggle between its dead and alive animation, players can try getting Mario further along the level given the series of inputs nintendo predetermined for the attract mode animation.
 
-on three screens attached to the wall were GURN GROUP's plunder 1, plunder 2 and plunder 3. these works are playable (with the analog stick and one button) visual compositions made from compositing multiple unmodified games running at the same time, creating a textural collage of videogames. on plunder 1, centered, was a composition of a character select from WWE whose face would change with input and the model would rotate, a level from Command and Conquer with the background keyed out in which you could select and move the character around, all on top of a barn scene from Boku No Natsuyasumi, in which you could move the character around the barn. on plunder 2 a minimap from populous 2 was laid out on top of a composition of Silent Hill's snow and mountany villa with Gran Turismo pine tree forest, the input would move the view along the map, while also rotating the trees and snowy background. finally plunder 3, which i don't really know how to explain, its like this game that has this intense shock braind effect, with this square that creates a weird zone (lets hope gurn edits this later)...
+![[pl1pl2pl3.JPG]]
+*pl 1, pl 2, pl 3*, Gurn Group
 
-on the next table was the interactive game by mut/moochi tapestry #4, in which you walk (or swim or glide) around multiple unmodified n64 and psx third person platformers games as they blend between one another, three showing up at a time, as they come and go, from mario to zelda, to croc and bugs bunny. a spatial and temporal collage rather than a composition or game structure.
+on three screens attached to the wall were GURN GROUP's *pl 1*, *pl 2* and *pl 3*. these works are playable (with the analog stick and one button) visual compositions made from compositing multiple unmodified games running at the same time, creating a textural collage of videogames. on plunder 1, centered, was a composition of a character select from WWE whose face would change with input and the model would rotate, a level from Command and Conquer with the background keyed out in which you could select and move the character around, all on top of a barn scene from Boku No Natsuyasumi, in which you could move the character around the barn. on plunder 2 a minimap from populous 2 was laid out on top of a composition of Silent Hill's snow and mountany villa with Gran Turismo pine tree forest, the input would move the view along the map, while also rotating the trees and snowy background. finally plunder 3, which i don't really know how to explain, its like this game that has this intense shock braind effect, with this square that creates a weird zone (lets hope gurn edits this later)...
 
-next to tapestry, also by mut/moochi was "pacman quine" a non interactive piece where four instances of pacman play themselves, one ghost from each of the games controlling pacman of the next one.
 
-in the corner on a desk was Tetris, but all at once, a playable tetris plunder where clearing a line on an emulated Tetris ROM would tile another simultaneous tetris ROM on the screen, until one of the games is lost. on a wooden saw horse bracket were three PSPs displaying Lawra Suits Clark's "Three Skeletons", a self-running endless loop of Tactics Ogre: Let Us Cling Together.
+![[tapestry.jpg]]
+*Tapestry*, mut moochi
 
-on the ground, another piece by mut/moochi, "untitled tetris plunder" in which three instances of tetris for the nes run simultaneously, each game being a 2d projection of a 3d structure that is being build by the blocks as they stack.
+on the next table was the interactive game by mut/moochi *tapestry #4*, in which you walk (or swim or glide) around multiple unmodified n64 and psx third person platformers games as they blend between one another, three showing up at a time, as they come and go, from mario to zelda, to croc and bugs bunny. a spatial and temporal collage rather than a composition or game structure.
+
+
+![[untitled-plundering.jpg]]
+*Untitled plundering*, mut moochi
+
+next to tapestry, also by mut/moochi was an untitled plundering, a pacman "quine", a non interactive piece where four instances of pacman play themselves, one ghost from each of the games controlling pacman of the next one.
+
+![[tbaao.png]]
+
+in the corner on a desk was *Tetris, but all at once*, a playable tetris plunder where clearing a line on an emulated Tetris ROM would tile another simultaneous tetris ROM on the screen, until one of the games is lost. 
+
+![[three-skeletons 2.JPG]]
+*Three Skeletons*, Lawra Clark
+
+on a wooden saw horse bracket were three PSPs displaying Lawra Suits Clark's "Three Skeletons", a self-running endless loop of Tactics Ogre: Let Us Cling Together.
+
+![[Feztris.JPG]]
+*Feztris*, mut moochi
+
+on the ground, another piece by mut/moochi, *"untitled tetris plunder" (Feztris)* in which three instances of tetris for the nes run simultaneously, each game being a 2d projection of a 3d structure that is being build by the blocks as they stack.
+
+![[exercises in mario.JPG]]
+*99 Exercises in Play*, Stephanie Boluk & Patrick LeMieux
 
 on a desk was 99 exercises in play by Patrick Lemieux and Stephanie Boluk, a series of experiments conducted on a recreation of the first level of Super Mario Bros for the NES.
 
-together sharing a corner of the space were Cory Arcangel's Super Slow Tetris, a very slow-progressing ROMhack of NES Tetris installed on a small CRT, and Tetris, but all at once, but all at once, a blending of 8 different simultaneous different Tetris games, projected onto a wall.
+![[tbaaobaao.jpg]]
+Left: *Tetris, but all at once, but all at once*, Jonny Hopkins
+Right: *Super Slow Tetris*, Cory Arcangel
+
+together sharing a corner of the space were Cory Arcangel's *Super Slow Tetris*, a very slow-progressing ROMhack of NES Tetris installed on a small CRT, and *Tetris, but all at once, but all at once*, a blending of 8 different simultaneous different Tetris games, projected onto a wall.
 
 ---
 
@@ -55,9 +95,10 @@ There are related ideas in other media. The one that comes to mind is Portishead
 [[plunder 1]]
 [[plunder 2]]
 [[plunder 3]]
-[[other plunderludics#magic box]]
-[[other plunderludics#99 exercises in play]]
-[[other plunderludics#super slow tetris]]
-[[other plunderludics#multibowl]]
-[[other plunderludics#three skeleton]]
+[[directory#[Magic Box](https //www.alistairaitcheson.com/games/magicbox.html)|magic box]]
+[[directory#[99 exercises in play](http //patrick-lemieux.com/games/99_Exercises/)|99 exercises in play]]
+[[directory|super slow tetris]]
+[[directory#[multibowl](https //www.foddy.net/2016/08/multibowl/|multibowl)]]
+[[directory#[three skeletons](https //twentycapitalletters.com/Three-Skeletons)|three skeletons]]
+[[directory#]]
 

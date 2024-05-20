@@ -33,3 +33,4 @@ a plunderludic experiment that plays with memory and nostalgia and the meaning o
 ![[2023-06-02-tapestry4-3.png]]
 ![[2023-06-02-tapestry4-4.png]]
 ![[2023-06-02-tapestry4-5.png]]
+
