@@ -1,4 +1,28 @@
-stitching a large ammount of games together through movement, crossfading between them according to movement. 
+link: https://drive.google.com/drive/u/1/folders/16Sep7xhLlf6d3ptizOo6sx5s4zBLZUVk
+by: [[mut]]
+
+## samples
+- [[samples/Banjo Kazooie (N64)/posttutorial]]
+- [[samples/Bubsy 3d (PS1)/beginning]]
+- [[samples/Bomberman 64 (N64)/beginning]]
+- [[samples/Bugs Bunny: Lost in Time (PS1)/rinkwatch]]
+- [[samples/Croc: Legend of Globbos (PS1)/floatingplatform]]
+- [[samples/Castlevania 64 (N64)/freemove-girl]]
+- [[samples/Mega Man 64 (N64)/posttutorial]]
+- [[samples/The Legend of Zelda: Majora's Mask (N64)/beginning-triplejump]]
+- [[samples/Quest 64 (N64)/stairshallway]]
+- [[samples/Mystical Ninja Starring Goemon (N64)/swim]]
+- [[samples/Rayman 2: The Great Escape (N64)/posttutorial-waterfall]]
+- [[samples/Super Mario 64 (N64)/courtyard]]
+- [[samples/Army Men: Sarge's Heroes (N64)/start]]
+- [[samples/Muppets Monster Adventure (PS1)/castletop-slide]]
+- [[samples/Hybrid Heaven (N64)/fun-hallway]]
+- [[samples/Spyro The Dragon (PS1)/unremarkable-hill-invisiblewall]]
+- 
+
+
+
+stitching a large amount of games together through movement, crossfading between them according to movement. 
 it's number 4 since there were some experiments before it related to stitching, which came undocumented, but mostly using multiple games and VCV rack to blend between them
 
 since connecting the games spatially from games' states themselves is really hard, an invisible character in unity is what controls the blend and triggers call of new samples. a character walks in a triangular grid where each vertex represents a game, the final image is a blend of the three points of the triangle, using [barycentric coordinate systems](https://en.wikipedia.org/wiki/Barycentric_coordinate_system) (thank's @pancelor for the suggestion).

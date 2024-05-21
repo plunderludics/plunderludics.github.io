@@ -1,4 +1,19 @@
 photos of the event [[2023-02-26 spring salad|here]]
+## works:
+[[works/tapestry]]
+[[tbaao|Tetris, but all at once]]
+[[works/tbaoobaao|Tetris, but all at once, but all at once]]
+[[works/auto mario]]
+[[works/pacman quine]]
+[[works/feztris]]
+[[works/plunder 1|pl1]]
+[[works/plunder 2|pl2]]
+[[works/plunder 3|pl3]]
+[[directory#[Magic Box](https //www.alistairaitcheson.com/games/magicbox.html)|magic box]]
+[[directory#[99 exercises in play](http //patrick-lemieux.com/games/99_Exercises/)|99 exercises in play]]
+[[directory|super slow tetris]]
+[[directory#[multibowl](https //www.foddy.net/2016/08/multibowl/)|multibowl]]
+[[directory#[three skeletons](https //twentycapitalletters.com/Three-Skeletons)|three skeletons]]
 
 
 ![[spring-salad-poster.jpg]]
@@ -37,7 +52,7 @@ on the next table was the interactive game by mut/moochi *tapestry #4*, in which
 
 next to tapestry, also by mut/moochi was an untitled plundering, a pacman "quine", a non interactive piece where four instances of pacman play themselves, one ghost from each of the games controlling pacman of the next one.
 
-![[tbaao.png]]
+![[devlogs/2023-02-25 spring salad/tbaao.png]]
 
 in the corner on a desk was *Tetris, but all at once*, a playable tetris plunder where clearing a line on an emulated Tetris ROM would tile another simultaneous tetris ROM on the screen, until one of the games is lost. 
 
@@ -85,20 +100,5 @@ So, I haven't really thought it through but the ideas are something like
 There are related ideas in other media. The one that comes to mind is Portishead's second album - I think having been burned by the cost of 'clearing' samples on their first record (which means, paying a licensing fee) they claimed - I have no idea if true or false, but sounds false - that they recorded a whole jazz record first, pressed it to vinyl, then used that as the source of samples and scratching for the final record. Although convenient for copyright reasons, I feel like collage constructed of work made by the collage-maker is missing something of the value in collage or any postmodernist form... it's 'hermetic', enclosed in itself, antisocial. One of the big reasons that sampling and collage and intertextualism are interesting and vital forms, is that there are multiple voices playing together."
 ```
 
-## works:
-[[tapestry]]
-[[tbaoo]]
-[[tbaoobaoo]]
-[[auto mario]]
-[[pacman quine]]
-[[feztris]]
-[[plunder 1]]
-[[plunder 2]]
-[[plunder 3]]
-[[directory#[Magic Box](https //www.alistairaitcheson.com/games/magicbox.html)|magic box]]
-[[directory#[99 exercises in play](http //patrick-lemieux.com/games/99_Exercises/)|99 exercises in play]]
-[[directory|super slow tetris]]
-[[directory#[multibowl](https //www.foddy.net/2016/08/multibowl/|multibowl)]]
-[[directory#[three skeletons](https //twentycapitalletters.com/Three-Skeletons)|three skeletons]]
-[[directory#]]
+
 

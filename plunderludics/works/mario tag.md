@@ -1,3 +1,10 @@
+link: https://drive.google.com/drive/folders/1o1zCZ_mnjCLcbHxFnN8IWqorIM0aTGgi
+by [[working-group|Plunderludics Working Group]]
+
+samples:
+- [[samples/Super Mario Bros (NES)]]
+	- all levels (1-1 to 8-4)
+
 two instances of super mario bros for the nes, strecthed to a 360 screen.
 
 description for [[2024-03-27 Looped Play (art basel)]]
