@@ -39,6 +39,7 @@ jobs:
           cd ${{ github.workspace }}
           pip install --upgrade pip
           pip install obsidianhtml
+          mkdir wiki/plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
           obsidianhtml convert -i wiki/config.yaml -v
           touch html/.nojekyll
       - name: Setup Pages
