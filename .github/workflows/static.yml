@@ -41,7 +41,7 @@ jobs:
           pip install obsidianhtml
           mkdir wiki/plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
           obsidianhtml convert -i wiki/config.yaml -v
-          touch html/.nojekyll
+          touch output/html/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
