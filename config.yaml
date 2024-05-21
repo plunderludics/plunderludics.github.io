@@ -28,10 +28,6 @@ md_entrypoint_path_str: "output/md/plunderludics.md"
 # Use full path or relative path, but don't use ~/
 html_output_folder_path_str: "docs"
 
-# If extended logging is enabled under toggles/extended_logging
-# Extra information is written to this folder
-log_output_folder_path_str: "output/log"
-
 ##########################################################################
 #                              OPERATIONS                                #
 ##########################################################################
