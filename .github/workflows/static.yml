@@ -33,13 +33,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          path: clone-path
+          path: wiki
       - name: Install dependencies and build
         run: |
           cd ${{ github.workspace }}/clone-path
           pip install --upgrade pip
           pip install obsidianhtml==3.5.2
-          obsidianhtml convert -i config.yaml -v
+          obsidianhtml convert -i wiki/config.yaml -v
           touch html/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v5
