@@ -24,14 +24,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          path: wiki
+          path: repo
       - name: Install dependencies and build
         run: |
           cd ${{ github.workspace }}
           pip install --upgrade pip
           pip install obsidianhtml
-          mkdir wiki/plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
-          obsidianhtml convert -i wiki/config.yaml -v
+          mkdir repo/plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
+          obsidianhtml convert -i repo/config.yaml -v
           touch docs/.nojekyll
       - name: Publish to Github Pages
         uses: s0/git-publish-subdir-action@develop
