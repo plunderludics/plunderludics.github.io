@@ -1,1 +1,3 @@
-obsidianhtml run -i config.yaml --clean
+obsidianhtml convert -i config.yaml --clean
+cd docs
+obsidianhtml serve docs

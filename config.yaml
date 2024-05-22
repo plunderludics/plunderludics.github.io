@@ -174,7 +174,9 @@ toggles:
         width: 16rem
         contents: dir_tree # <toc, tag_tree, dir_tree>
       right_pane:
-        enabled: False
+        enabled: True
+        width: 16rem
+        contents: toc # <toc, tag_tree, dir_tree>
 
     code_highlight:
       enabled: True
