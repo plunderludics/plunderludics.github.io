@@ -3,7 +3,7 @@
 // Globals (filled in by backend)
 var no_tab_mode = 1;
 var mermaid_enabled = 0;
-var toc_pane_div = "";
+var toc_pane_div = "right_pane_content";
 var dir_index_pane_div = "";
 var html_url_prefix = "";
 var CONFIGURED_HTML_URL_PREFIX = "";

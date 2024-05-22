@@ -34,7 +34,7 @@
         <script>
                 document.getElementById('antiflash').style.display = 'block';
         </script>
-        <!--  -->
+        
 
         <div id="page_holder" class="flex_col">
                 <div id="header" class="header">
@@ -196,7 +196,7 @@
 </div>
     </div>
 </div>
-                        <div class="container">
+                        <div class="container" style="margin: 0; overflow-y: scroll;">
                                 <div class="content"><h1 id="h_2022-10-07">2022-10-07</h1>
 <h2 id="works">works</h2>
 <p><a href="/works/mario%20feedback.html">mario feedback</a> <br />
@@ -219,7 +219,12 @@
                         </div>
                         <div class="container_filler">
                         </div>
-                        
+                        <div id="right_pane" class="right_pane active">
+    <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
+    <div id="right_pane_content" class="right_pane_content">
+            
+    </div>
+</div>
                 </div>
         </div>
 
@@ -296,10 +301,14 @@
                         if (!val){ return {'exists': false, 'value': null}}
                         return {'exists': true, 'value': Boolean(Number(val))}
                 }
+
                 function set_pane_folding_start(left_header, right_header){
-                        // small screen = closed
-                        let right_pane_enabled = true;
-                        let left_pane_enabled = true;
+                        let right_pane_exists = document.getElementById('right_pane') !== null
+                        let left_pane_exists = document.getElementById('left_pane') !== null
+
+                        let right_pane_enabled = right_pane_exists
+                        let left_pane_enabled = right_pane_exists
+
                         let w = window.visualViewport.width
                         if (w < 1000){
                                 left_pane_enabled = false
@@ -319,31 +328,39 @@
                         }
 
                         // default = enabled, so we only need to disable
-                        if (!left_pane_enabled){
-                                disable_side_bar(document.getElementById('left_pane'), document.getElementById('left_pane_fold_header'))
+                        if (left_pane_exists) {
+                                if (!left_pane_enabled){
+                                        disable_side_bar(document.getElementById('left_pane'), document.getElementById('left_pane_fold_header'))
+                                } else {
+                                        init_pane_folding(document.getElementById('left_pane_fold_header'))
+                                        document.getElementById('left_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button)
+                                }
                         }
-                        if (!right_pane_enabled){
-                                disable_side_bar(document.getElementById('right_pane'), document.getElementById('right_pane_fold_header'))
+
+                        if (right_pane_exists) {
+                                if (!right_pane_enabled){
+                                        disable_side_bar(document.getElementById('right_pane'), document.getElementById('right_pane_fold_header'))
+                                } else {
+                                        init_pane_folding(document.getElementById('right_pane_fold_header'))
+                                        document.getElementById('right_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button)
+                                }
                         }
                 }
 
                 function init_pane_folding(header){
-                        set_correct_header_symbol(header);
-                        header.addEventListener('click', handle_toggle_side_bar);
+                        set_correct_header_symbol(header)
+                        header.addEventListener('click', handle_toggle_side_bar)
                 }
 
-
                 set_pane_folding_start()
-                init_pane_folding(document.getElementById('left_pane_fold_header'));
-                init_pane_folding(document.getElementById('right_pane_fold_header'));
-
-                document.getElementById('left_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
-                document.getElementById('right_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
         </script>
 
         <script src="/obs.html/static/load_dirtree_footer.js" type="text/javascript"></script>
 
         
 
-        
+
+
+
+</body>
 </html>
