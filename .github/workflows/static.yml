@@ -27,11 +27,11 @@ jobs:
           path: repo
       - name: Install dependencies and build
         run: |
-          cd ${{ github.workspace }}
+          cd ${{ github.workspace }}/repo
           pip install --upgrade pip
           pip install obsidianhtml
-          mkdir repo/plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
-          obsidianhtml convert -i repo/config.yaml -v
+          mkdir plunderludics/.obsidian # this folder needs to exist so obsidianhtml can find the root of the vault
+          obsidianhtml convert -i config.yaml -v
           touch docs/.nojekyll
       - name: Publish to Github Pages
         uses: s0/git-publish-subdir-action@develop
