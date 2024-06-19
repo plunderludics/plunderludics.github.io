@@ -18,6 +18,8 @@ references and inspirations from games and other media
 [[how to plunderludics (old)]] (wip) is a step-by-step guide to game-sampling and creating a collage-style plunder using [[UnityHawk]].
 [[plundering 101 (old)]] is an overview of the tools and repos we've been using for plundering
 
+[[using preexisting save files|using preexisting save files]] 
+
 ## [[devlogs]]
 ongoing log of plunderludic experiments and tool development
 
