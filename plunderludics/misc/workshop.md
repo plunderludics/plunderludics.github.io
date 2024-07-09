@@ -1,6 +1,8 @@
 # plunderludics workshop July 2024
 
-(Copy text from instagram/twitter post)
+did you ever consider the possibility of making playable videogame collages? the plunderludics working group has been creating tools to make such things more easily come to our workshop and jam this coming week and make your own thing!
+
+we will kick off the jam with a workshop and in person work time with us helping you out then you will have a week to work on your game and on the next sunday, more in person work time, culminating on a moment we can all showcase our work!
 
 Hosted at Boshi's Place: 1002 Metropolitan Ave, Brooklyn
 And online on twitch: twitch.tv/boshisplace/home
