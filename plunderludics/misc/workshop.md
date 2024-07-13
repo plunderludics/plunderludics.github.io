@@ -11,8 +11,9 @@ This workshop is aimed at people who have a rough familiarity with the Unity eng
 Anyone who can only make it to one of the two days, or can't stay for the whole event, is also welcome.
 
 ### Setup
-Before arriving it would be ideal if you can make sure you have:
-- Unity 2022.2 or later
+Before arriving it would be ideal if you can make sure you:
+- Join the discord! https://discord.gg/ATJSh8W8dp
+- Have Unity 2022.2 or later
 - You can also install the [UnityHawk package](https://github.com/plunderludics/unity-hawk), [plundertools package](https://github.com/plunderludics/plundertools), and the [BizHawk prerequisites](https://github.com/TASEmulators/BizHawk-Prereqs/releases/download/2.4.8_1/bizhawk_prereqs_v2.4.8_1.zip) - but we will go through the installation process in the workshop
 
 ## Sunday 14th
