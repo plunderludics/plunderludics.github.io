@@ -1,5 +1,7 @@
 # plunderludics workshop July 2024
 
+NOTE! The software you need for this demo only runs on Windows unfortunately. We have a few windows laptops we can lend out for the day, but might not be enough to accommodate everybody. Bring a windows computer if you can!
+
 did you ever consider the possibility of making playable videogame collages? the plunderludics working group has been creating tools to make such things more easily come to our workshop and jam this coming week and make your own thing!
 
 we will kick off the jam with a workshop and in person work time with us helping you out then you will have a week to work on your game and on the next sunday, more in person work time, culminating on a moment we can all showcase our work!
