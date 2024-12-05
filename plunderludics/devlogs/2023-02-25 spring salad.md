@@ -1,4 +1,3 @@
-photos of the event [[2023-02-26 spring salad|here]]
 ## works:
 [[works/tapestry]]
 [[tbaao|Tetris, but all at once]]
@@ -9,11 +8,11 @@ photos of the event [[2023-02-26 spring salad|here]]
 [[works/plunder 1|pl1]]
 [[works/plunder 2|pl2]]
 [[works/plunder 3|pl3]]
-[[directory#[Magic Box](https //www.alistairaitcheson.com/games/magicbox.html)|magic box]]
-[[directory#[99 exercises in play](http //patrick-lemieux.com/games/99_Exercises/)|99 exercises in play]]
-[[directory|super slow tetris]]
-[[directory#[multibowl](https //www.foddy.net/2016/08/multibowl/)|multibowl]]
-[[directory#[three skeletons](https //twentycapitalletters.com/Three-Skeletons)|three skeletons]]
+[Magic Box](https://www.alistairaitcheson.com/games/magicbox.html)
+[99 exercises in play](http://patrick-lemieux.com/games/99_Exercises/)
+[super slow tetris](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris)
+[multibowl](https://www.foddy.net/2016/08/multibowl/)
+[three skeletons](https://twentycapitalletters.com/Three-Skeletons)
 
 
 ![[spring-salad-poster.jpg]]

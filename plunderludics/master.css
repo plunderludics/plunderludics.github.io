@@ -28,6 +28,10 @@
     /* scrollbar-width: thin; */
 }
 
+img {
+    max-width: 80%;
+}
+
 code {
     white-space: break-spaces;
 }
