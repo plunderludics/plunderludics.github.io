@@ -162,7 +162,7 @@ toggles:
 
   features:
     styling:
-      layout: documentation # documentation, tabs, minimal
+      layout: minimal # documentation, tabs, minimal
       max_note_width: 55rem # not supported for layout: tabs
       add_toc: False # add "[TOC]" (Table of Contents) when missing
       accent_color: "65, 76, 253"
@@ -170,11 +170,11 @@ toggles:
 
     side_pane:             # only valid for documentation layout
       left_pane:
-        enabled: True
+        enabled: False
         width: 16rem
         contents: dir_tree # <toc, tag_tree, dir_tree>
       right_pane:
-        enabled: True
+        enabled: False
         width: 16rem
         contents: toc # <toc, tag_tree, dir_tree>
 
@@ -187,7 +187,7 @@ toggles:
     math_latex:
       enabled: False
     backlinks: # Show backlinks at the bottom of each note
-      enabled: True
+      enabled: False
     embedded_note_titles:
       enabled: True
 
