@@ -284,7 +284,7 @@ blockquote p {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    width: 100vw;
+    width: 80vw;
 }
 
 .current_page_link a:hover,
