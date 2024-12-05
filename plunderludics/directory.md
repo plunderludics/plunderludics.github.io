@@ -1,15 +1,37 @@
 this is a list of all the plunderludic games we're aware of. certainly incomplete... [[index#contact|get in touch]] if you know any that aren't on this list!
 
 ## videogames
-### [mario_battle_no.1](https://myfanwy.ca/html/mario.html)
-(and many other mario mods by the same artist)
-2000
-Myfanwy Ashmore
 
-### [Super Mario Clouds](https://coryarcangel.com/things-i-made/2002-001-super-mario-clouds) , [Super Slow Tetris](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris)
-(and many other rom hacks by the same artist)
-2002, 2004
-Cory Arcangel
+### [D and Sonic Spinball in a Hallway](https://hatimb00.itch.io/d-and-sonic-spinball-in-a-hallway), [Water Level/b.l.u.e. EXPLORATION](https://hatimb00.itch.io/blue-exploration)
+2024
+Hatim Benhsain
+(Made with [[UnityHawk]])
+
+### [Guo Yu's plunderludics](https://itch.io/c/4993661/plunderludics)
+2024
+Guo Yu
+(Most of these are made with [[UnityHawk]])
+
+### [International Laws of Aviation](https://cymothoid.itch.io/international-laws-of-aviation)
+2024
+cymothoid
+(Made with [[UnityHawk]])
+
+### [mario in myst](https://cohost.org/isyourguy/post/69245-mystposting)
+2022
+@isyourguy
+
+### [Jazztronauts](https://steamcommunity.com/sharedfiles/filedetails/?id=1452613192)
+2018
+Scott Kauker
+
+### [three skeletons](https://twentycapitalletters.com/Three-Skeletons)
+2017
+Lawra Suits Clark
+
+### [multibowl](https://www.foddy.net/2016/08/multibowl/)
+2016
+AP Thomson and Bennett Foddy
 
 ### ['randomizers'](https://www.debigare.com/randomizers/)
 big list of challenges based on randomizing items/locations in emulated games
@@ -21,21 +43,16 @@ a multi-game multi-player randomizer, where items are sent from one game to anot
 2020
 Alistair Aitcheson
 
-### [multibowl](https://www.foddy.net/2016/08/multibowl/)
-2016
-AP Thomson and Bennett Foddy
+### [Super Mario Clouds](https://coryarcangel.com/things-i-made/2002-001-super-mario-clouds) , [Super Slow Tetris](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris)
+(and many other rom hacks by the same artist)
+2002, 2004
+Cory Arcangel
 
-### [three skeletons](https://twentycapitalletters.com/Three-Skeletons)
-2017
-Lawra Suits Clark
 
-### [Jazztronauts](https://steamcommunity.com/sharedfiles/filedetails/?id=1452613192)
-2018
-Scott Kauker
-
-### [mario in myst](https://cohost.org/isyourguy/post/69245-mystposting)
-2022
-@isyourguy
+### [mario_battle_no.1](https://myfanwy.ca/html/mario.html)
+(and many other mario mods by the same artist)
+2000
+Myfanwy Ashmore
 
 ## non-digital games
 ### [Name Kit](http://fluxus.lib.uiowa.edu/content/fluxus-games-and-puzzles-4-versions.html)
