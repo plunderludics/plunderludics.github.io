@@ -99,8 +99,6 @@ html_template_path_str: "layout.html"
 html_custom_inclusions: []
 html_custom_footer_inclusions: []
 
-navbar_links: []
-
 file_exports:
   - encoding: binary
     src: favicon.ico
@@ -187,7 +185,7 @@ toggles:
     math_latex:
       enabled: False
     backlinks: # Show backlinks at the bottom of each note
-      enabled: False
+      enabled: True
     embedded_note_titles:
       enabled: True
 

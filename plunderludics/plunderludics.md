@@ -1,4 +1,4 @@
-# plunderludics
+# what is plunderludics?
 
 plunderludics means making games out of games.
 
