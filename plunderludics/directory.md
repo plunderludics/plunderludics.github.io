@@ -61,7 +61,6 @@ a multi-game multi-player randomizer, where items are sent from one game to anot
 2002, 2004
 Cory Arcangel
 
-
 ### [mario_battle_no.1](https://myfanwy.ca/html/mario.html)
 (and many other mario mods by the same artist)
 2000
