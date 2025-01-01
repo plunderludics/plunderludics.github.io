@@ -8,7 +8,7 @@ Hatim Benhsain
 (Made with [[UnityHawk]])
 
 ### [Guo Yu's plunderludics](https://itch.io/c/4993661/plunderludics)
-2024
+2024 -
 Guo Yu
 (Most of these are made with [[UnityHawk]])
 
@@ -17,9 +17,26 @@ Guo Yu
 cymothoid
 (Made with [[UnityHawk]])
 
+### [Gurn Group's plunderludics](https://itch.io/c/5209529/made-with-unityhawk)
+2023 -
+Gurn Group
+(Made with [[UnityHawk]])
+
 ### [mario in myst](https://cohost.org/isyourguy/post/69245-mystposting)
 2022
 @isyourguy
+
+### [Tetris, but all at once](https://jwhop.itch.io/tetris-but-all-at-once-public-version)
+2022
+Jonny Hopkins
+
+### [Auto Mario](https://nes.mut.media/goodluck.html), [other plunderludic experiments](https://nes.mut.media/)
+2022
+Mut/Moochi
+
+### [Magic Box](https://www.alistairaitcheson.com/games/magicbox.html)
+2020
+Alistair Aitcheson
 
 ### [Jazztronauts](https://steamcommunity.com/sharedfiles/filedetails/?id=1452613192)
 2018
@@ -38,10 +55,6 @@ big list of challenges based on randomizing items/locations in emulated games
 
 ### [archipelago](https://archipelago.gg/)
 a multi-game multi-player randomizer, where items are sent from one game to another
-
-### [Magic Box](https://www.alistairaitcheson.com/games/magicbox.html)
-2020
-Alistair Aitcheson
 
 ### [Super Mario Clouds](https://coryarcangel.com/things-i-made/2002-001-super-mario-clouds) , [Super Slow Tetris](https://coryarcangel.com/things-i-made/2004-003-super-slow-tetris)
 (and many other rom hacks by the same artist)

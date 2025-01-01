@@ -13,18 +13,22 @@ February 2023. *[[2023-02-25 spring salad|Spring Salad: a plunderludic gathering
 December 2022. *[[2022-12-03 babycastles|Babycastles: maybe the last event ever]]*. at [babycastles](https://www.babycastles.com/) in NYC.
 
 ## games
-Plunderludics Working Group, March 2024. *Mario Tag*.
+Mario Tag (Plunderludics Working Group, March 2024)
 
-mut moochi, February 2023. *tapestry*.
+tapestry (mut moochi, February 2023)
 
-Gurn Group, February 2023. [pl 1](https://gurnburial.itch.io/pl-1), [pl 2](https://gurnburial.itch.io/pl-2), [pl 3](https://gurnburial.itch.io/pl-3).
+[pl 1](https://gurnburial.itch.io/pl-1), [pl 2](https://gurnburial.itch.io/pl-2), [pl 3](https://gurnburial.itch.io/pl-3) (Gurn Group, February 2023)
 
-Jonny Hopkins, February 2023. *Tetris, but all at once, but all at once*
+Tetris, but all at once, but all at once (Jonny Hopkins, February 2023)
 
-Gurn Group, November 2022. *Violence: medium*
+Violence: medium (Gurn Group, November 2022)
 
-mut moochi, September 2022. [*Auto Mario*](https://nes.mut.media/goodluck.html)
+[Auto Mario](https://nes.mut.media/goodluck.html) (mut moochi, September 2022)
 
-Jonny Hopkins, August 2022. [*Tetris, but all at once*](https://jwhop.itch.io/tetris-but-all-at-once-public-version).
+[Tetris, but all at once](https://jwhop.itch.io/tetris-but-all-at-once-public-version) (Jonny Hopkins, August 2022)
+
 ## tools
-(Development ongoing) [UnityHawk](https://github.com/plunderludics/unity-hawk) is a tool for development and distribution of plunderludics using the Unity game engine and the BizHawk emulation platform.
+[UnityHawk](https://github.com/plunderludics/unity-hawk) is a tool for development and distribution of plunderludics using the Unity game engine and the BizHawk emulation platform.
+
+## writing
+["Collage, gamefeel, history, form"](https://gurngroup.org/post/2024-04-28-game-collage) (Gurn Group, April 2024)
