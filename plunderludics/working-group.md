@@ -31,4 +31,4 @@ Violence: medium (Gurn Group, November 2022)
 [UnityHawk](https://github.com/plunderludics/unity-hawk) is a tool for development and distribution of plunderludics using the Unity game engine and the BizHawk emulation platform.
 
 ## writing
-["Collage, gamefeel, history, form"](https://gurngroup.org/post/2024-04-28-game-collage) (Gurn Group, April 2024)
+["Collage, gamefeel, history, form"](https://gurngroup.com/post/2024-04-28-game-collage) (Gurn Group, April 2024)
