@@ -29,7 +29,7 @@ These other guides are somewhat out of date and/or unfinished, but might be usef
 - [[using preexisting save files|using preexisting save files]] 
 
 ## writing
-[Collage, gamefeel, history, form](https://gurngroup.com/post/2024-04-28-game-collage) (Gurn Group) - notes on collage and collage games
+["Collage, gamefeel, history, form"](https://gurngroup.com/post/2024-04-28-game-collage) (Gurn Group) - notes on collage and collage games
 
 ## contact
 if you want to know more, want to make your own plunderludics, want help setting up any of the tools, know some plunderludic work that isn't listed on this website, or want to say hi, join [the discord](https://discord.gg/ATJSh8W8dp)
