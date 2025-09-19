@@ -18,6 +18,8 @@ by: [[mut]]
 - [[samples/Hybrid Heaven (N64)/fun-hallway]]
 - [[samples/Spyro The Dragon (PS1)/unremarkable-hill-invisiblewall]]
 
+## description
+
 multiple third person games from 5th generation consoles (psx, n64), cut, sampled, limited and blended as such to allow for textural exploration.
 
 a plunderludic experiment that plays with memory and nostalgia and the meaning of moving within and around videogames. exploring the relation of the infinite possibilities of plays within constrained virtual spaces, which sometimes might mean pushing your avatar into a wall until it becomes something else
@@ -38,21 +40,25 @@ since connecting the games spatially from games' states themselves would be too 
 
 ![[2023-06-02-tapestry4-internal.png]]
 
+## exhibitions / awards
 
-## comments
-
-> mut: the dream is that these are actually connected through space within each game, hopefully a future experiment will work that way...
-> i also modified the walker to use tank controls after [[2023-02-25 spring salad]], since people mostly press forward and sideways movement doesn't happen that often, making the invisible character move like a tank create more unique traversal's through the tapestry
-> for Festival Ecrã i also made a modification where its playable via twitch, but that mostly means it auto plays...
-
+[LIKELIKE Plundergames Show 2025](https://likelike.org/2024/05/29/plundergames/)
+[IGF 2025 - Nuovo Award Nominee](https://igf.com/entry/2025/tapearia-tapestry/)
+[A MAZE. 2024 - Honorable Mention](https://2024.award.amaze-berlin.de/games/2024/tapestry)
+[Harmonia Ltd.](https://www.instagram.com/p/DKjNgijoYg0/?img_index=1)
 ## techniques
 [[crossfading|techniques/crossfading]]
 ## tools
 [[bizhawk]]
 [[unity-samplemixer]]
+## comments
 
+> mut: the dream is that these are actually connected through space within each game, hopefully a future experiment will work that way...
+> i also modified the walker to use tank controls after [[2023-02-25 spring salad]], since people mostly press forward and sideways movement doesn't happen that often, making the invisible character move like a tank create more unique traversal's through the tapestry
+> for Festival Ecrã i also made a modification where its playable via twitch, but that mostly means it auto plays...
+## media:
+![](https://www.youtube.com/watch?v=RZtbatSroc0)
 
-## screenshots:
 ![[2023-06-02-tapestry4-1.png]]
 ![[2023-06-02-tapestry4-2.png]]
 ![[2023-06-02-tapestry4-3.png]]
