@@ -1,4 +1,4 @@
-# Open Call: Autumn 2026
+# Open Call: Fall 2026
 
 <div class="leaf-banner" aria-hidden="true">
 
