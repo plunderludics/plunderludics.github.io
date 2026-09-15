@@ -8,6 +8,8 @@ this website is an effort to document our work, other work in the plunderludic g
 
 here's a [video](https://www.youtube.com/watch?v=9SQQ-M__ZrI) we made in early 2023 about it (many things have happened since)
 
+**‼️‼️ \[September 15 2026\]** If you make plunderludics, or would like to, please consider submitting to our [[2026-open-call|open call]] for works to exhibit at a show in New York in late November 2026. Submissions due by Nov 7th.
+
 ## [[directory]]
 a big list of all the plunderludic games we're aware of
 
