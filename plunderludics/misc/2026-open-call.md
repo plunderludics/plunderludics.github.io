@@ -45,15 +45,15 @@
 </style>
 
 
-We (the [[working-group|plunderludics working group]]) plan to host an exhibition of [[plunderludics|plunderludic]] work in New York City in early December 2026. We would like to invite any interested parties to submit work to be considered for inclusion in the show.
+We (the [[working-group|plunderludics working group]]) plan to host an exhibition of [[plunderludics|plunderludic]] work in New York City in late November / early December 2026. We would like to invite any interested parties to submit work to be considered for inclusion in the show.
 
-To apply, send your work (ideally as a zipped Windows executable) to plunderludics@protonmail.com \[todo set this up\], or join [the plunderludics Discord](https://discord.gg/ATJSh8W8dp) and post it there. If you are unable to make a build for some reason but still want to be considered, just get in touch.
+To apply, send your work (ideally as a zipped Windows executable) to plunderludics@protonmail.com, or join [the plunderludics Discord](https://discord.gg/ATJSh8W8dp) and post it there. If you are unable to make a build for some reason but still want to be considered, just get in touch.
 
 We are most interested in games/software that are 'made from' existing games/software. This includes emulation-based or hardware-based plunderludics, romhacks, mods, etc. [[directory|See some examples here]]. However, if your work is 'plunderludics adjacent' - for example, machinima videos, recreations of existing games, games made with appropriated assets, or even non-digital games made from other non-digital games - we'd still love to see it.
 
 For making plunderludics, if you're comfortable with Unity you might want to try the [UnityHawk](https://github.com/plunderludics/unity-hawk) tool. [[tools|Here are a few other tools that might be useful]]. Any tools or techniques you use are totally welcomed.
 
-Deadline: **November 1st, 2026.**
+Deadline: **November 7th, 2026.**
 
 The exact date and venue will be determined later in the year.
 
